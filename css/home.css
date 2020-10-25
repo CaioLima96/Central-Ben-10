@@ -1,0 +1,20 @@
+/*********************************HEADER****************************************/
+header .container-fluid > .row {
+    overflow: hidden;
+}
+
+
+/*********************************MAIN******************************************/
+
+#part-1 .container {
+    overflow: hidden;
+}
+
+
+/********************************MAIN BEN'S ALIEN CARDS*************************************/
+#four-arms-1 > img + img {
+    position: absolute;
+    top: -4%;
+    left: 12% !important;
+    width: 81% !important;
+}
