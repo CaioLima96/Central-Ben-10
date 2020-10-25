@@ -12,9 +12,20 @@ header .container-fluid > .row {
 
 
 /********************************MAIN BEN'S ALIEN CARDS*************************************/
-#four-arms-1 > img + img {
-    position: absolute;
-    top: -4%;
-    left: 12% !important;
-    width: 81% !important;
+
+.tab-pane .col-lg-12, #alien-card h4 {
+    color: black;
+    text-align: center;
 }
+
+
+#alien-card > img + img {
+    position: absolute;
+    top: 6%;
+    left: 16% !important;
+    width: 60% !important;
+}
+
+/*#alien-card h4 {
+    text-align: center;
+}*/
