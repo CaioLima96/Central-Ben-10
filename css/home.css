@@ -9,9 +9,18 @@ header .container-fluid > .row {
 /*********************************MAIN******************************************/
 
 
+
+/*******************PART 1*******************/
+
 #part-1 .container {
     overflow: hidden;
+    background-color: black;
 }
+
+
+
+
+/*******************PART 2*******************/
 
 #part-2 > .container {
     max-width: 67.5%;
@@ -42,16 +51,17 @@ header .container-fluid > .row {
 
 
 
-/*******************NAV TAB MENU*******************/
+/*******NAV TAB MENU*******/
 
 #nav-tab-menu {
+    max-width: 100% !important;
     background-color: black;
     border-top-left-radius: 0.625rem;
     border-top-right-radius: 0.625rem;
 }
 
 #nav-tab {
-    padding: 0.5rem 1rem !important;
+    padding: 2% 1rem !important;
 }
 
 .nav-link {
@@ -70,7 +80,9 @@ header .container-fluid > .row {
     border-bottom: none !important;
 }
 
-/*******************NAV TAB CONTENT****************/
+
+
+/*******NAV TAB CONTENT*******/
 
 #nav-tab-content {
     max-width: 93.5% !important;
@@ -79,10 +91,6 @@ header .container-fluid > .row {
 /*#nav-tab-content {
     background-color: #97C93D;
 }*/
-
-
-
-/********************************MAIN BEN'S ALIEN CARDS*************************************/
 
 
 
