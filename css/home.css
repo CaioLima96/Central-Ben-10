@@ -1,27 +1,30 @@
 /*********************************HEADER****************************************/
+
 header .container-fluid > .row {
     overflow: hidden;
 }
 
 
+
 /*********************************MAIN******************************************/
+
 
 #part-1 .container {
     overflow: hidden;
 }
 
-
-/********************************MAIN BEN'S ALIEN CARDS*************************************/
-
 #part-2 > .container {
     max-width: 67.5%;
+    background-color: #97C93D;
+    padding: 0;
+    border-radius: 0.625rem;
+    border-radius: 0.625rem;
 }
 
 .tab-pane .col-lg-12, #alien-card h4 {
     color: black;
     text-align: center;
 }
-
 
 #alien-card > img + img {
     position: absolute;
@@ -36,3 +39,51 @@ header .container-fluid > .row {
 /*#alien-card h4 {
     text-align: center;
 }*/
+
+
+
+/*******************NAV TAB MENU*******************/
+
+#nav-tab-menu {
+    background-color: black;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+}
+
+#nav-tab {
+    padding: 0.5rem 1rem !important;
+}
+
+.nav-link {
+    padding: 0 !important;
+}
+
+#nav-tab a.active {
+    background-color: transparent !important;
+}
+
+#nav-tab a {
+    color: white;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+/*******************NAV TAB CONTENT****************/
+
+#nav-tab-content {
+    max-width: 93.5% !important;
+}
+
+/*#nav-tab-content {
+    background-color: #97C93D;
+}*/
+
+
+
+/********************************MAIN BEN'S ALIEN CARDS*************************************/
+
+
+
+
