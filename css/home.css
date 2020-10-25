@@ -13,6 +13,10 @@ header .container-fluid > .row {
 
 /********************************MAIN BEN'S ALIEN CARDS*************************************/
 
+#part-2 > .container {
+    max-width: 67.5%;
+}
+
 .tab-pane .col-lg-12, #alien-card h4 {
     color: black;
     text-align: center;
@@ -24,6 +28,9 @@ header .container-fluid > .row {
     top: 6%;
     left: 16% !important;
     width: 60% !important;
+    /*    display: block;
+    margin-left: auto;
+    margin-right: auto;*/
 }
 
 /*#alien-card h4 {
