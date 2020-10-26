@@ -13,17 +13,29 @@ header .container-fluid > .row {
 /*******************PART 1*******************/
 
 #part-1 .container {
+    max-width: 1250px;
+    width: 80%;
     overflow: hidden;
     background-color: black;
 }
 
+#part-1 p {
+    color: white;
+    font: italic 1.3rem 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#part-1 img {
+    width: 212px;
+}
 
 
 
 /*******************PART 2*******************/
 
 #part-2 > .container {
-    max-width: 67.5%;
+    max-width: 1140px;
+    width: 67.5%;
     background-color: #97C93D;
     padding: 0;
     border-radius: 0.625rem;
