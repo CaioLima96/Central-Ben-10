@@ -17,16 +17,22 @@ header .container-fluid > .row {
     width: 80%;
     overflow: hidden;
     background-color: black;
+    border-radius: 1.25rem;
 }
 
 #part-1 p {
     color: white;
-    font: italic 1.3rem 'Roboto', sans-serif;
-    margin: 0;
+    font: italic 1.3rem/1.5 'Roboto', sans-serif;
+    margin: 16px 0;
+    text-align: center
 }
 
 #part-1 img {
     width: 212px;
+}
+
+#part-1 .col-xl-3 {
+    text-align: center;
 }
 
 
