@@ -15,6 +15,7 @@
 
         <!--MY CSS-->
         <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/modal-home.css">
 
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -157,14 +158,14 @@
 
                                     <!--MAIN BEN'S ALIEN CARDS-->
                                     <div id="aliens-cards" class="row card-row-one">
-                                        
+ 
                                         <div id="alien-card" class="col-lg-3 four-arms">
                                             <img src="img/retângulos/retangulo 4.jpg" alt="Retângulo 1" class="img-fluid">
-                                            <img src="img/aliens/ben-principal/clássico/4 braços (clássico) 4.png" alt="Quatro Braços">
+                                            <img src="img/aliens/ben-principal/clássico/4 braços (clássico) 4.png" alt="Quatro Braços" data-toggle="modal" data-target="#exampleModalLong">
 
                                             <a href="https://ben10.fandom.com/wiki/Four_Arms_(Classic)" target="_blank"><h4>4 Braços</h4></a>
                                         </div>
-
+                                        
                                         <div id="alien-card" class="col-lg-3 ripjaws">
                                             <img src="img/retângulos/retangulo 4.jpg" alt="Retângulo 1" class="img-fluid">
                                             <img src="img/aliens/ben-principal/clássico/Aquático (clássico) 3.png" alt="Aquático">
@@ -264,6 +265,47 @@
             </div>
 
         </footer>
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">4 Braços</h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" title="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="container">
+
+                            <div class="row justify-content-around">
+                                <div class="col-xl-4">
+                                    <img src="img/aliens/ben-principal/clássico/4 braços (clássico) 4.png" alt="4 Braços" class="img-fluid">
+                                </div>
+                                
+                                <div class="col-xl-4">
+                                    <img src="img/aliens/ben-principal/clássico/4 braços (clássico) 3.png" alt="4 Braços" class="img-fluid">
+                                </div>
+
+                                <div class="col-xl-5">
+                                    <img src="img/aliens/ben-principal/clássico/4 braços (clássico) 2.png" alt="4 Braços" class="img-fluid">
+                                </div>
+        
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

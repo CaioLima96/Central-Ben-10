@@ -1,0 +1,9 @@
+/*#exampleModalLong .modal-body img {
+    width: 132%;
+}*/
+
+#exampleModalLong .modal-dialog {
+    max-width: 1140px;
+    width: 96%;
+    overflow: hidden;
+}
