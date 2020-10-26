@@ -1,7 +1,27 @@
 /*********************************HEADER****************************************/
 
+header .container-fluid {
+    background-color: #627612;
+}
+
 header .container-fluid > .row {
     overflow: hidden;
+}
+
+header nav {
+    padding: 5px 16px !important;
+}
+
+header .navbar {
+    background-color: #2A4D2C;
+}
+
+header ul a {
+    color: black !important;
+}
+
+header ul a:hover {
+    color: #969632;
 }
 
 
@@ -79,7 +99,7 @@ header .container-fluid > .row {
 }
 
 #nav-tab {
-    padding: 2% 1rem !important;
+    padding: 1.5% 1rem !important;
 }
 
 #part-2 .nav-link {
