@@ -1,25 +1,27 @@
-/*#exampleModalLong .modal-body img {
-    width: 132%;
-}*/
+/*******TEMPLATE MODAL*****/
 
-#exampleModalLong .modal-dialog {
+.alienModal .modal-dialog {
     max-width: 1140px;
     width: 90%;
     overflow: hidden;
 }
 
-#exampleModalLong {
+.alienModal {
     padding: 0 !important;
 }
 
-#exampleModalLong .modal-body div.row {
+.alienModal .modal-body div.row {
     margin-bottom: 5%;
 }
 
-#exampleModalLong .modal-body .first-img-modalBody-row{
+.alienModal .modal-body .first-img-modalBody-row{
     margin-bottom: 10%;
 }
 
-#exampleModalLong .modal-title {
+.alienModal .modal-title {
     font: normal 1.25rem 'Roboto', sans-serif;
+}
+
+.alien-center-modal-body-container {
+    text-align: center !important;
 }
