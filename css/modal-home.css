@@ -10,9 +10,9 @@
     padding: 0 !important;
 }
 
-.alienModal .modal-body div.row {
+/*.alienModal .modal-body div.row {  ESPAÇO ENTRE AS ROWS
     margin-bottom: 5%;
-}
+}*/
 
 .alienModal .modal-body .first-img-modalBody-row{
     margin-bottom: 10%;
