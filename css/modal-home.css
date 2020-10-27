@@ -4,6 +4,22 @@
 
 #exampleModalLong .modal-dialog {
     max-width: 1140px;
-    width: 96%;
+    width: 90%;
     overflow: hidden;
+}
+
+#exampleModalLong {
+    padding: 0 !important;
+}
+
+#exampleModalLong .modal-body div.row {
+    margin-bottom: 5%;
+}
+
+#exampleModalLong .modal-body .first-img-modalBody-row{
+    margin-bottom: 10%;
+}
+
+#exampleModalLong .modal-title {
+    font: normal 1.25rem 'Roboto', sans-serif;
 }
