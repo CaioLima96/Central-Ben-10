@@ -68,6 +68,10 @@ header ul a:hover {
     border-radius: 0.625rem;
 }
 
+#nav-content {
+    max-width: 93.5% !important;
+}
+
 
 
 /*******NAV TAB MENU*******/
@@ -132,14 +136,6 @@ header ul a:hover {
 
 #part-2 #alien-card h4 {
     margin-top: 0.5rem;
-}
-
-
-
-/*******NAV TAB CONTENT*******/
-
-#nav-content {
-    max-width: 93.5% !important;
 }
 
 
