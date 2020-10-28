@@ -108,16 +108,13 @@
 }
 
 #part-2 #alien-card a:hover {
-    color: red !important;
+    text-decoration: none;
     
-}
-
-#part-2 #alien-card a:hover {
-    color: #d2d2d2 !important;
 }
 
 #part-2 #alien-card h4:hover {
     font-weight: bold;
+    font-style: italic;
 }
 
 #part-2 #alien-card img:nth-child(2):hover {
