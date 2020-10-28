@@ -126,14 +126,16 @@
 #part-2 .snareoh img:nth-child(2) {
     top: 4% !important;
     width: 64% !important;
-    left: 15% !important;
 }
 
+#part-2 .heatblast img:nth-child(2) {
+    top: 3% !important;
+}
 
+#part-2 .wildvine img:nth-child(2) {
+    width: 54% !important;
+    top: 2% !important;
+    left: 23% !important;
 
-
-
-
-
-
+}
 
