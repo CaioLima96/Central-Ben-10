@@ -27,8 +27,19 @@
 }
 
 
-/*************************ALIENS***************************/
+/*************************CLASSIC BEN ALIENS***************************/
 
 #Classic-Ben-Aliens-Modal #ClassicBenGhostFreakModal .modal-body .row:nth-child(2) .col-xl-4 img{
     width: 70% !important;
 }
+
+#Classic-Ben-Aliens-Modal #ClassicBenStinkFlyModal .modal-body .row .col-xl-4:nth-child(2) img{
+    width: 70% !important;
+}
+
+#Classic-Ben-Aliens-Modal #ClassicBenEyeGuyModal .modal-body .row .col-xl-12 img{
+    width: 23% !important;
+}
+
+
+
