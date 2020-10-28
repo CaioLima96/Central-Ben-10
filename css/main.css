@@ -1,0 +1,49 @@
+/*********************************HEADER****************************************/
+
+header .container-fluid {
+    background-color: #627612;
+}
+
+header .container-fluid > .row {
+    overflow: hidden;
+}
+
+header nav {
+    padding: 5px 16px !important;
+}
+
+header .navbar {
+    background-color: #2A4D2C !important;
+}
+
+header ul a {
+    color: black !important;
+}
+
+header ul a:hover {
+    color: #969632 !important;
+}
+
+
+
+/*********************************FOOTER******************************************/
+
+footer {
+    background-color: #f1dfdf;
+}
+
+footer p {
+    margin: auto;
+    color: black;
+    font: 400 'Roboto', sans-serif;
+}
+
+footer a{
+    color: black;
+    font-style: italic;
+}
+
+footer a:hover {
+    color: #3d543d;;
+    font-weight: bold;
+}
