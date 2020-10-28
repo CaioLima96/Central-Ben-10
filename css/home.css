@@ -108,7 +108,7 @@
 
 
 
-/***************ALIEN CARD***************/
+/***************CLASSIC BEN ALIEN CARD***************/
 
 #part-2 .four-arms img:nth-child(2) {
     top: 4% !important;
@@ -144,5 +144,15 @@
     left: 28% !important;
 }
 
+#part-2 .ghostfreak img:nth-child(2) {
+    width: 71% !important;
+    left: 13% !important;
+}
+
+#part-2 .upchuck-perk img:nth-child(2) {
+    left: 24% !important;
+    top: 11% !important;
+    width: 56% !important;
+}
 
 

@@ -26,6 +26,16 @@
     text-align: center !important;
 }
 
+
+/*************************ALIENS***************************/
+
+#Classic-Ben-Aliens-Modal #ClassicBenGhostFreakModal .modal-body .row:nth-child(2) .col-xl-4 img{
+    width: 70% !important;
+}
+
+
+
+
 /*#alien-card:hover {
     border: 4px solid red;
     background-color: yellow;
