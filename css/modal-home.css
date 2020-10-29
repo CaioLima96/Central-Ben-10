@@ -27,6 +27,7 @@
 }
 
 
+
 /*************************CLASSIC BEN ALIENS***************************/
 
 #Classic-Ben-Aliens-Modal #ClassicBenGhostFreakModal .modal-body .row:nth-child(2) .col-xl-4 img{
@@ -44,5 +45,20 @@
 #Classic-Ben-Aliens-Modal #ClassicBenUpgradeModal .modal-body .row .col-xl-12 img{
     width: 32% !important;
 }
+
+
+
+
+/*************************************  @MEDIA  ****************************************/
+
+@media  (max-width: 575px) {
+
+    .arroba-media-modal .modal-dialog {
+        margin-left: 5% !important;
+    }
+    
+}
+
+
 
 
