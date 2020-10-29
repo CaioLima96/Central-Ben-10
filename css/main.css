@@ -32,6 +32,12 @@ footer {
     background-color: #f1dfdf;
 }
 
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer p {
     margin: auto;
     color: black;
@@ -44,6 +50,12 @@ footer a{
 }
 
 footer a:hover {
-    color: #3d543d;;
+    color: #3d543d;
     font-weight: bold;
+    
+}
+
+footer .container div:nth-child(2):hover {
+    transition: 1.2s all;
+    transform: scale(1.2);
 }
