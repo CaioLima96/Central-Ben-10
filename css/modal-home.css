@@ -27,6 +27,7 @@
 }
 
 
+
 #Classic-Ben-Aliens-Modal .modal #nav-tab-menu-modal.container {
     width: 77% !important;
     text-align: center !important;
@@ -67,21 +68,19 @@
     width: 23% !important;
 }
 
-#Classic-Ben-Aliens-Modal #ClassicBenUpgradeModal .modal-body .row .col-xl-12 img{
-    width: 320px !important;
-}
-
 #Classic-Ben-Aliens-Modal #ClassicBenFourArmsModal .modal-body .container div.row:nth-child(2) .col-xl-3 img {
     width: 320px !important;
 }
 
 
 
-#Classic-Ben-Aliens-Modal #ClassicBenFourArmsModal #nav-content-modal #nav-end-game .row:nth-child(2) .col-xl-5:nth-child(2) img {
+#Classic-Ben-Aliens-Modal #ClassicBenFourArmsModal #nav-content-modal #nav-end-game-fourArms .row:nth-child(2) .col-xl-5:nth-child(2) img {
     width: 362px !important;
 }
 
-
+/*#Classic-Ben-Aliens-Modal #ClassicBenUpgradeModal .modal-body .row .col-xl-12 img{
+    width: 320px !important;
+}*/
 
 
 /*************************************  @MEDIA  ****************************************/
