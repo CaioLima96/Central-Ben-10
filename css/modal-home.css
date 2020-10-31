@@ -29,7 +29,7 @@
 
 
 #Classic-Ben-Aliens-Modal .modal #nav-tab-menu-modal.container {
-    width: 77% !important;
+    width: 80% !important;
     text-align: center !important;
 }
 
@@ -42,6 +42,10 @@
     font: normal 1rem 'Roboto', sans-serif;
 }
 
+#Classic-Ben-Aliens-Modal .modal #nav-content-modal .tab-pane .row > .row {
+    margin-bottom: 0 !important;
+}
+
 #Classic-Ben-Aliens-Modal .modal #nav-content-modal .tab-pane .row div{
     margin-bottom: 5% !important;
     text-align: center !important;
@@ -50,6 +54,7 @@
 #Classic-Ben-Aliens-Modal .modal #nav-content-modal.container {
     width: 80% !important;
 }
+
 
 
 
