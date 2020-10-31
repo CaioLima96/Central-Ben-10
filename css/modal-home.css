@@ -1,4 +1,4 @@
-/*******TEMPLATE MODAL*****/
+/************************TEMPLATE MODAL*************************/
 
 .alienModal .modal-dialog {
     max-width: 1140px;
@@ -27,6 +27,31 @@
 }
 
 
+#Classic-Ben-Aliens-Modal .modal #nav-tab-menu-modal.container {
+    width: 77% !important;
+    text-align: center !important;
+}
+
+#Classic-Ben-Aliens-Modal .modal #nav-tab-menu-modal h3 {
+    font: normal 1.5rem 'Roboto', sans-serif;
+}
+
+#Classic-Ben-Aliens-Modal .modal #nav-tab a {
+    color: black;
+    font: normal 1rem 'Roboto', sans-serif;
+}
+
+#Classic-Ben-Aliens-Modal .modal #nav-content-modal .tab-pane .row div{
+    margin-bottom: 5% !important;
+    text-align: center !important;
+}
+
+#Classic-Ben-Aliens-Modal .modal #nav-content-modal.container {
+    width: 80% !important;
+}
+
+
+
 
 /*************************CLASSIC BEN ALIENS***************************/
 
@@ -49,6 +74,13 @@
 #Classic-Ben-Aliens-Modal #ClassicBenFourArmsModal .modal-body .container div.row:nth-child(2) .col-xl-3 img {
     width: 320px !important;
 }
+
+
+
+#Classic-Ben-Aliens-Modal #ClassicBenFourArmsModal #nav-content-modal #nav-end-game .row:nth-child(2) .col-xl-5:nth-child(2) img {
+    width: 362px !important;
+}
+
 
 
 
