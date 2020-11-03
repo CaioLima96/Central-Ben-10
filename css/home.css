@@ -118,7 +118,7 @@
     font-style: italic;
 }
 
-#part-2 #alien-card img:nth-child(2):hover {
+#part-2 #alien-card img:hover {
    cursor: pointer;
    /*cursor: url('../img/Diamante-cursor-1.png') !important;*/
 }
