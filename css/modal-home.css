@@ -10,10 +10,6 @@
     padding: 0 !important;
 }
 
-/*.alienModal .modal-body div.row {  ESPAÇO ENTRE AS ROWS
-    margin-bottom: 5%;
-}*/
-
 .alienModal .modal-body .first-img-modalBody-row{
     margin-bottom: 10%;
 }
@@ -28,30 +24,31 @@
 
 
 
-#Classic-Ben-Aliens-Modal .modal #nav-tab-menu-modal.container {
+
+.alien-modal .modal #nav-tab-menu-modal.container {
     width: 80% !important;
     text-align: center !important;
 }
 
-#Classic-Ben-Aliens-Modal .modal #nav-tab-menu-modal h3 {
+.alien-modal .modal #nav-tab-menu-modal h3 {
     font: normal 1.5rem 'Roboto', sans-serif;
 }
 
-#Classic-Ben-Aliens-Modal .modal #nav-tab a {
+.alien-modal .modal #nav-tab a {
     color: black;
     font: normal 1rem 'Roboto', sans-serif;
 }
 
-#Classic-Ben-Aliens-Modal .modal #nav-content-modal .tab-pane .row > .row {
+.alien-modal .modal #nav-content-modal .tab-pane .row > .row {
     margin-bottom: 0 !important;
 }
 
-#Classic-Ben-Aliens-Modal .modal #nav-content-modal .tab-pane .row div{
+.alien-modal .modal #nav-content-modal .tab-pane .row div{
     margin-bottom: 5% !important;
     text-align: center !important;
 }
 
-#Classic-Ben-Aliens-Modal .modal #nav-content-modal.container {
+.alien-modal .modal #nav-content-modal.container {
     width: 80% !important;
 }
 
@@ -69,15 +66,10 @@
     width: 320px !important;
 }
 
-
-
 #Classic-Ben-Aliens-Modal #ClassicBenFourArmsModal #nav-content-modal #nav-end-game-fourArms .row:nth-child(2) .col-xl-5:nth-child(2) img {
     width: 362px !important;
 }
 
-/*#Classic-Ben-Aliens-Modal #ClassicBenUpgradeModal .modal-body .row .col-xl-12 img{
-    width: 320px !important;
-}*/
 
 
 /*************************************  @MEDIA  ****************************************/
