@@ -1,0 +1,16 @@
+tentei fazer um teste responsivo, funcionou até certa parte, mas acho q deu conflito com o bootstrap
+
+#part-2 #teste-card {
+    background-image: url("../img/retângulos/retangulo\ 4.jpg");
+    background-size: cover;
+    width: 202.2px !important;
+    height: 247.97px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#part-2 #teste-card img {
+    height: 90% !important;
+    max-width: 100% !important;
+}

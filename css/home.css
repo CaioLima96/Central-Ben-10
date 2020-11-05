@@ -57,7 +57,9 @@
 }
 
 #part-2 .nav-link {
-    padding: 0 !important;
+    padding: 0.5rem !important;
+    font: normal 1rem 'Roboto', sans-serif !important;
+    border-radius: 0.25rem !important;
 }
 
 #nav-tab a.active {
@@ -128,6 +130,7 @@
     transform: scale(1.2);
     z-index: 5 !important;
 }
+
 
 
 
