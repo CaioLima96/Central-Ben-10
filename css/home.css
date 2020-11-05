@@ -229,5 +229,9 @@
         text-align: center !important;
         margin-bottom: 2% !important;
     }
+
+    .arroba-media-modal .modal .modal-body .row div {
+        margin-bottom: 7% !important;
+    }
     
 }
