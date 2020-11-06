@@ -131,7 +131,9 @@
     z-index: 5 !important;
 }
 
-
+#part-2 #nav-tabContent hr {
+    border-top: 2px solid rgb(0 0 0 / 37%) !important;
+}
 
 
 
@@ -210,6 +212,29 @@
     top: 4% !important;
     left: 23% !important;
 }
+
+
+/***************ALIEN FORCE BEN ALIEN CARD***************/
+
+#part-2 #nav-força-alienigena .alienx img:nth-child(2){
+    width: 40% !important;
+    top: 4%;
+    left: 28% !important;
+}
+
+#part-2 #nav-força-alienigena .jetray img:nth-child(2){
+    width: 68% !important;
+    left: 17% !important;
+
+}
+
+#part-2 #nav-força-alienigena .necrofriggianbaby img:nth-child(2){
+    width: 65% !important;
+    top: 20%;
+    left: 17% !important;
+
+}
+
 
 
 
