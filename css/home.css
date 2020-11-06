@@ -122,7 +122,7 @@
 
 #part-2 #alien-card img:hover {
    cursor: pointer;
-   /*cursor: url('../img/Diamante-cursor-1.png') !important;*/
+   /*cursor: url('../img/Diamante-cursor-1.png'), auto;*/
 }
 
 #alien-card:hover {
@@ -131,7 +131,9 @@
     z-index: 5 !important;
 }
 
-
+#part-2 #nav-tabContent hr {
+    border-top: 2px solid rgb(0 0 0 / 37%) !important;
+}
 
 
 
@@ -211,6 +213,71 @@
     left: 23% !important;
 }
 
+
+
+/***************ALIEN FORCE BEN ALIEN CARD***************/
+
+#part-2 #nav-força-alienigena .alienx img:nth-child(2){
+    width: 40% !important;
+    top: 4%;
+    left: 28% !important;
+}
+
+#part-2 #nav-força-alienigena .jetray img:nth-child(2){
+    width: 68% !important;
+    left: 17% !important;
+
+}
+
+#part-2 #nav-força-alienigena .necrofriggianbaby img:nth-child(2){
+    width: 65% !important;
+    top: 20%;
+    left: 17% !important;
+}
+
+#part-2 #nav-força-alienigena .bigchill img:nth-child(2){
+    width: 47% !important;
+    left: 24% !important;
+}
+
+#part-2 #nav-força-alienigena .echoecho img:nth-child(2){
+    width: 38% !important;
+    top: 7% !important;
+    left: 33% !important;
+}
+
+#part-2 #nav-força-alienigena .lodestar img:nth-child(2){
+    top: 7% !important;
+    left: 26% !important;
+    width: 43% !important;
+}
+
+#part-2 #nav-força-alienigena .spidermonkey img:nth-child(2){
+    top: 15% !important;
+    left: 21% !important;
+}
+
+#part-2 #nav-força-alienigena .rath img:nth-child(2){
+    left: 22% !important;
+    width: 57% !important;
+}
+
+#part-2 #nav-força-alienigena .cannonboltaf img:nth-child(2){
+    top: 14% !important;
+    left: 15% !important;
+    width: 70% !important;
+}
+
+#part-2 #nav-força-alienigena .diamondheadaf img:nth-child(2){
+    left: 24% !important;
+    width: 50% !important;
+}
+
+#part-2 #nav-força-alienigena .murkupchuckaf img:nth-child(2){
+    top: 8%;
+    left: 23% !important;
+    width: 57% !important;
+}
 
 
 

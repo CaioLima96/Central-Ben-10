@@ -24,7 +24,6 @@
 
 
 
-
 .alien-modal .modal #nav-tab-menu-modal.container {
     width: 80% !important;
     text-align: center !important;
@@ -51,6 +50,17 @@
 .alien-modal .modal #nav-content-modal.container {
     width: 80% !important;
 }
+
+
+
+.alien-modal .modal .modal-header .card-body div {
+    border: 1px solid black;
+}
+
+.alien-modal .modal .modal-header .card-body #alienBio {
+    margin-right: 0.5rem !important;
+}
+
 
 
 
