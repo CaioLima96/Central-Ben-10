@@ -2,7 +2,7 @@
 
 .alienModal .modal-dialog {
     max-width: 1140px;
-    width: 90%;
+    width: 67.5%;
     overflow: hidden;
 }
 
@@ -24,57 +24,58 @@
 
 
 
-.alien-modal .modal #nav-tab-menu-modal.container {
+
+.web-alien-modal .modal #nav-tab-menu-modal.container {
     width: 80% !important;
     text-align: center !important;
 }
 
-.alien-modal .modal #nav-tab-menu-modal h3 {
+.web-alien-modal .modal #nav-tab-menu-modal h3 {
     font: normal 1.5rem 'Roboto', sans-serif;
 }
 
-.alien-modal .modal #nav-tab a {
+.web-alien-modal .modal #nav-tab a {
     color: black;
     font: normal 1rem 'Roboto', sans-serif;
 }
 
-.alien-modal .modal #nav-content-modal .tab-pane .row > .row {
+.web-alien-modal .modal #nav-content-modal .tab-pane .row > .row {
     margin-bottom: 0 !important;
 }
 
-.alien-modal .modal #nav-content-modal .tab-pane .row div{
+.web-alien-modal .modal #nav-content-modal .tab-pane .row div{
     margin-bottom: 5% !important;
     text-align: center !important;
 }
 
-.alien-modal .modal #nav-content-modal.container {
+.web-alien-modal .modal #nav-content-modal.container {
     width: 80% !important;
 }
 
 
-.alien-modal .modal .modal-header .card-body{
+.web-alien-modal .modal .modal-header .card-body{
     padding: 1.5rem;
 }
 
-.alien-modal .modal .modal-header .card-body [id] {
+.web-alien-modal .modal .modal-header .card-body [id] {
     border: 1px solid rgba(0, 0, 0, 0.125);
     padding: 0.3125rem;
     height: fit-content;
     box-shadow: 10px 12px 10px grey;
 }
 
-.alien-modal .modal .modal-header .card-body #alienBio {
+.web-alien-modal .modal .modal-header .card-body #alienBio {
     margin-right: 1.4rem !important;
 }
 
-.alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+.web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
     width: 41% !important;
     max-width: 280px !important;
     height: fit-content;
     right: 3% !important;
 }
 
-.alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel .carousel-caption {
+.web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel .carousel-caption {
     padding: 0 !important;
     bottom: 0 !important;
 }
