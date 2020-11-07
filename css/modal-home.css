@@ -2,7 +2,7 @@
 
 .alienModal .modal-dialog {
     max-width: 1140px;
-    width: 67.5%;
+    width: 90%;
     overflow: hidden;
 }
 
@@ -18,7 +18,7 @@
     font: normal 1.25rem 'Roboto', sans-serif;
 }
 
-.alien-center-modal-body-container {
+.alienModal .modal-body  {
     text-align: center !important;
 }
 
