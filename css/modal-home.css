@@ -52,15 +52,32 @@
 }
 
 
+.alien-modal .modal .modal-header .card-body{
+    padding: 1.5rem;
+}
 
-.alien-modal .modal .modal-header .card-body div {
-    border: 1px solid black;
+.alien-modal .modal .modal-header .card-body [id] {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.3125rem;
+    height: fit-content;
+    box-shadow: 10px 12px 10px grey;
 }
 
 .alien-modal .modal .modal-header .card-body #alienBio {
-    margin-right: 0.5rem !important;
+    margin-right: 1.4rem !important;
 }
 
+.alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+    width: 41% !important;
+    max-width: 280px !important;
+    height: fit-content;
+    right: 3% !important;
+}
+
+.alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel .carousel-caption {
+    padding: 0 !important;
+    bottom: 0 !important;
+}
 
 
 
