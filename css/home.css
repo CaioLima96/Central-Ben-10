@@ -246,18 +246,18 @@
     left: 33% !important;
 }
 
-#part-2 #nav-força-alienigena .lodestar img:nth-child(2){
+#part-2 #nav-força-alienigena .lodestaraf img:nth-child(2){
     top: 7% !important;
     left: 26% !important;
     width: 43% !important;
 }
 
-#part-2 #nav-força-alienigena .spidermonkey img:nth-child(2){
+#part-2 #nav-força-alienigena .spidermonkeyaf img:nth-child(2){
     top: 15% !important;
     left: 21% !important;
 }
 
-#part-2 #nav-força-alienigena .rath img:nth-child(2){
+#part-2 #nav-força-alienigena .rathaf img:nth-child(2){
     left: 22% !important;
     width: 57% !important;
 }
@@ -278,6 +278,12 @@
     left: 23% !important;
     width: 57% !important;
 }
+
+#part-2 #nav-força-alienigena .waybigaf img:nth-child(2){
+    left: 31% !important;
+    width: 34% !important;
+}
+
 
 
 
