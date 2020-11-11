@@ -16,3 +16,58 @@ tentei fazer um teste responsivo, funcionou até certa parte, mas acho q deu con
 }
 
 -----------------------
+
+
+<div style="
+    position: absolute;
+    width: 210.17px;
+    height: 207px;
+    left: 615px;
+    top: 96px;
+" id="omnitrix"> <div class="black-circle" style="
+    /* position: absolute; */
+    width: 192px;
+    height: 192px;
+    left: 624px;
+    top: 104px;
+    background: #000000;
+"><div class="grey-circle" style="
+    /* position: absolute; */
+    width: 163px;
+    height: 163px;
+    left: 639px;
+    top: 119px;
+    background: #ACACAD;
+"><div class="green-circle" style="
+    /* position: absolute; */
+    width: 146px;
+    height: 146px;
+    left: 647px;
+    top: 127px;
+    background: #8EDE28;
+"><div class="grey-arrows" style="
+    /* position: absolute; */
+    width: 146px;
+    height: 146px;
+    left: 647px;
+    top: 127px;
+    /* overflow: hidden; */
+    "><div class="right-arrow" style="
+    /* position: absolute; */
+    width: 171.79px;
+    height: 65.41px;
+    left: 694.28px;
+    top: 114.29px;
+    background: #7E787A;
+    border: 5px solid #000000;
+    transform: matrix(0.01, 1, -1, 0.01, 0, 0);
+"></div><div class="left-arrow" style="
+    /* position: absolute; */
+    width: 198.36px;
+    height: 83.62px;
+    left: 745px;
+    top: 299.36px;
+    background: #7E787A;
+    border: 5px solid #000000;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+"></div></div></div></div></div></div>
