@@ -101,6 +101,12 @@
     font: normal 1rem/1.5 'Roboto', sans-serif;
 }
 
+#part-2 #nav-tabContent div.col-lg-12 p a {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
 #part-2 #alien-card h4 {
     margin-top: 0.5rem;
     font: normal 1.25rem 'Roboto', sans-serif;
@@ -345,6 +351,34 @@
     width: 43% !important;
 }
 
+#part-2 #nav-supremacia-alienigena .ultimatehumungousaurua img:nth-child(2){
+    top: 13% !important;
+    width: 61% !important;
+}
+
+#part-2 #nav-supremacia-alienigena .ultimateswampfireua img:nth-child(2){
+    top: 7%;
+    left: 23% !important;
+    width: 50% !important;
+}
+
+#part-2 #nav-supremacia-alienigena .ultimatespidermonkeyua img:nth-child(2){
+    top: 14% !important;
+    left: 12% !important;
+    width: 73% !important;
+}
+
+#part-2 #nav-supremacia-alienigena .ultimatewaybigua img:nth-child(2){
+    top: 4% !important;
+    left: 30% !important;
+    width: 35% !important;
+}
+
+#part-2 #nav-supremacia-alienigena .fourarmsua img:nth-child(2){
+    top: 5% !important;
+    left: 25% !important;
+    width: 53% !important;
+}
 
 
 /*************************************  @MEDIA  ****************************************/
