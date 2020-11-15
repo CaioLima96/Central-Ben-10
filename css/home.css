@@ -381,6 +381,68 @@
 }
 
 
+
+/***************OMNIVERSE BEN ALIEN CARD***************/
+
+#part-2 #nav-omniverse .molestacheov img:nth-child(2){
+    top: 8% !important;
+    left: 25% !important;
+    width: 44% !important;
+}
+
+#part-2 #nav-omniverse .bloxxov img:nth-child(2){
+    top: 14% !important;
+    left: 15% !important;
+    width: 70% !important;
+}
+
+#part-2 #nav-omniverse .bullfragov img:nth-child(2){
+    top: 7% !important;
+    left: 25% !important;
+    width: 47% !important;
+}
+
+#part-2 #nav-omniverse .crashhopperov img:nth-child(2){
+    left: 28% !important;
+    width: 38% !important;
+}
+
+#part-2 #nav-omniverse .gravattackov img:nth-child(2){
+    top: 16% !important;
+    left: 15% !important;
+    width: 70% !important;
+}
+
+#part-2 #nav-omniverse .theworstov img:nth-child(2){
+    top: 13% !important;
+    left: 17% !important;
+    width: 66% !important;
+}
+
+#part-2 #nav-omniverse .peskydustov img:nth-child(2){
+    top: 7% !important;
+    left: 27% !important;
+    width: 43% !important;
+}
+
+#part-2 #nav-omniverse .gutrotov img:nth-child(2){
+    top: 10% !important;
+    left: 16% !important;
+    width: 67% !important;
+}
+
+#part-2 #nav-omniverse .whampireov img:nth-child(2){
+    top: 5% !important;
+    left: 30% !important;
+    width: 39% !important;
+}
+
+#part-2 #nav-omniverse .walkatroutov img:nth-child(2){
+    top: 12% !important;
+    width: 67% !important;
+}
+
+
 /*************************************  @MEDIA  ****************************************/
 
 @media  (max-width: 1199px) {
