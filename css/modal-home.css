@@ -23,7 +23,13 @@
 }
 
 
+.web-alien-modal .modal-body .col-xl-12 hr {
+    width: 80% !important;
+}
 
+.web-alien-modal .modal-body .container .container {
+    width: 80% !important;
+}
 
 .web-alien-modal .modal #nav-tab-menu-modal.container {
     width: 80% !important;
@@ -97,6 +103,12 @@
 #Classic-Ben-Aliens-Modal #ClassicBenFourArmsModal #nav-content-modal #nav-end-game-fourArms .row:nth-child(2) .col-xl-5:nth-child(2) img {
     width: 362px !important;
 }
+
+
+
+
+
+/*************************OMNIVERSE ALIENS***************************/
 
 
 

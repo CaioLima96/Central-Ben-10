@@ -384,6 +384,12 @@
 
 /***************OMNIVERSE BEN ALIEN CARD***************/
 
+#part-2 #nav-omniverse .astrodactylov img:nth-child(2){
+    top: 8%;
+    left: 23% !important;
+    width: 52% !important;
+}
+
 #part-2 #nav-omniverse .molestacheov img:nth-child(2){
     top: 8% !important;
     left: 25% !important;
