@@ -71,3 +71,163 @@ tentei fazer um teste responsivo, funcionou até certa parte, mas acho q deu con
     border: 5px solid #000000;
     transform: matrix(0, -1, 1, 0, 0, 0);
 "></div></div></div></div></div></div>
+
+
+
+
+
+ <!--MODAL AND CARD EXEMPLE------------------------------------------------------------------>
+        
+        <!--ALIEN CARDS
+            REMEMBER TO CHANGE THE ROW'S NUMBER
+            REMEMBER TO ADD THE ALIEN'S NAME ASS A CLASS IN THE COLUMN
+
+            <div id="aliens-cards" class="row card-row-"> 
+
+                <div id="alien-card" class="col-lg-3">
+                    <img src="img/retângulos/retangulo 4.jpg" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#">
+                    <img src="" alt="" data-toggle="modal" data-target="#">
+        
+                    <a href="" target="_blank"><h4>Nome Aqui</h4></a>
+                </div>
+
+                <div id="alien-card" class="col-lg-3">
+                    <img src="img/retângulos/retangulo 4.jpg" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#">
+                    <img src="" alt="" data-toggle="modal" data-target="#">
+        
+                    <a href="" target="_blank"><h4>Nome Aqui</h4></a>
+                </div>
+
+                <div id="alien-card" class="col-lg-3">
+                    <img src="img/retângulos/retangulo 4.jpg" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#">
+                    <img src="" alt="" data-toggle="modal" data-target="#">
+        
+                    <a href="" target="_blank"><h4>Nome Aqui</h4></a>
+                </div>
+
+                <div id="alien-card" class="col-lg-3">
+                    <img src="img/retângulos/retangulo 4.jpg" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#">
+                    <img src="" alt="" data-toggle="modal" data-target="#">
+        
+                    <a href="" target="_blank"><h4>Nome Aqui</h4></a>
+                </div>
+
+            </div>
+        -->
+        
+        <!--MODAL
+            <div class="modal fade bd-example-modal-lg alienModal" id="" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" title="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <div class="container ">
+
+                                <div class="row justify-content-around align-items-center">
+                                    <div class="col-xl-4">
+                                        <img src="" alt="" class="img-fluid">
+                                    </div>
+                                    
+                                    <div class="col-xl-4">
+                                        <img src="" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div> 
+        -->
+        
+        <!--NAV TAB MENU MODAL
+            <div class="container mt-4" id="nav-tab-menu-modal">
+
+                <div class="row">
+
+                    <div class="col-xl-12 justify-content-center mb-3">
+
+                        <h3>Formas Alternativas</h3>
+
+                    </div>
+
+                    <div class="col-xl-12 justify-content-center">
+
+                        <nav>
+                            <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+
+                                <a class="nav-item nav-link active mr-1" id="nav--tab" data-toggle="tab" href="#nav-" role="tab" aria-controls="nav-" aria-selected="true"></a>
+                                
+                                <a class="nav-item nav-link" id="nav--tab" data-toggle="tab" href="#nav-" role="tab" aria-controls="nav-" aria-selected="false"></a>
+
+                            </div>
+                        </nav>
+
+                    </div>   
+
+                </div>
+
+            </div>
+        -->
+
+        <!--NAV TAB CONTENT MODAL
+            <div class="container" id="nav-content-modal">
+
+                <div class="row justify-content-center">
+
+                    <div class="tab-content" id="nav-tabContent">
+
+                        <div class="tab-pane fade show active" id="nav-" role="tabpanel" aria-labelledby="nav--tab">
+
+                            <div class="row justify-content-center align-items-center mt-4" >
+
+                                <div class="col-xl-5">
+                                    <img src="" alt="" class="img-fluid">
+                                </div>
+
+                                <div class="col-xl-5">
+                                    <img src="" alt="" class="img-fluid">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-" role="tabpanel" aria-labelledby="nav--tab">
+
+                            <div class="row justify-content-center align-items-center mt-4" >
+
+                                <div class="row justify-content-center align-items-center mt-4" >
+
+                                    <div class="col-xl-5">
+                                        <img src="" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-xl-5">
+                                        <img src="" alt="" class="img-fluid">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+        -->
