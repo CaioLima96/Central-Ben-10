@@ -143,7 +143,9 @@
 
 
 
+
 /***************CLASSIC BEN ALIEN CARD***************/
+
 
 #part-2 .four-arms img:nth-child(2) {
     top: 4% !important;
@@ -567,6 +569,80 @@
     top: 17% !important;
     left: 13% !important;
     width: 72% !important;
+}
+
+#part-2 #nav-omniverse .alienxov img:nth-child(2){
+    left: 30% !important;
+    width: 41% !important;
+
+}
+
+#part-2 #nav-omniverse .brainstormov img:nth-child(2){
+    top: 21% !important;
+    left: 16% !important;
+    width: 67% !important;
+
+}
+
+#part-2 #nav-omniverse .bigchillov img:nth-child(2){
+    top: 10% !important;
+
+}
+
+#part-2 #nav-omniverse .chromastoneov img:nth-child(2){
+    left: 30% !important;
+    width: 38% !important;
+}
+
+#part-2 #nav-omniverse .echoechoov img:nth-child(2){
+    top: 11% !important;
+    left: 21% !important;
+    width: 55% !important;
+}
+
+#part-2 #nav-omniverse .humungousaurov img:nth-child(2){
+    top: 9% !important;
+}
+
+#part-2 #nav-omniverse .lodestarov img:nth-child(2){
+    top: 7% !important;
+    left: 26% !important;
+    width: 50% !important;
+}
+
+#part-2 #nav-omniverse .swampfireov img:nth-child(2){
+    left: 22% !important;
+    width: 54% !important;
+}
+
+#part-2 #nav-omniverse .swampfireov img:nth-child(2){
+    left: 22% !important;
+    width: 54% !important;
+}
+
+#part-2 #nav-omniverse .swampfireblossomed img:nth-child(2){
+    left: 24% !important;
+    width: 50% !important;
+}
+
+#part-2 #nav-omniverse .goopov img:nth-child(2){
+    left: 29% !important;
+    width: 47% !important;
+}
+
+#part-2 #nav-omniverse .spidermonkeyov img:nth-child(2){
+    top: 15% !important;
+}
+
+#part-2 #nav-omniverse .nanomechov img:nth-child(2){
+    top: 13%;
+    left: 20% !important;
+}
+
+#part-2 #nav-omniverse .rathov img:nth-child(2){
+    top: 11% !important;
+    left: 21% !important;
+    width: 56% !important;
 }
 
 
