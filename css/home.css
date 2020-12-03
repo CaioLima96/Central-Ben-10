@@ -484,6 +484,11 @@
     width: 64% !important;
 }
 
+#part-2 #nav-omniverse .buzzshockov img:nth-child(2){
+    left: 25% !important;
+    width: 50% !important;
+}
+
 #part-2 #nav-omniverse .heatblastov img:nth-child(2){
     top: 7% !important;
     left: 29% !important;
@@ -555,8 +560,8 @@
 
 #part-2 #nav-omniverse .upgradeov img:nth-child(2){
     top: 7% !important;
-    left: 9% !important;
-    width: 86% !important;
+    left: 23% !important;
+    width: 56% !important;
 }
 
 #part-2 #nav-omniverse .waybigov img:nth-child(2){
