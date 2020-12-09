@@ -697,6 +697,99 @@
 }
 
 
+
+/***************REBOOT BEN ALIEN CARD***************/
+
+#part-2 #nav-reboot .fourarmsrb img:nth-child(2){
+    top: 11% !important;
+    left: 16% !important;
+    width: 65% !important;
+}
+
+#part-2 #nav-reboot .jetrayrb img:nth-child(2){
+    top: 20% !important;
+    left: 16% !important;
+    width: 65% !important;
+}
+
+#part-2 #nav-reboot .cannonboltrb img:nth-child(2){
+    top: 13%;
+    left: 21% !important;
+}
+
+#part-2 #nav-reboot .heatblastrb img:nth-child(2){
+    left: 34% !important;
+    width: 34% !important;
+}
+
+#part-2 #nav-reboot .shockrockrb img:nth-child(2){
+    top: 13% !important;
+    left: 12% !important;
+    width: 75% !important;
+}
+
+#part-2 #nav-reboot .wildvinerb img:nth-child(2){
+    left: 34% !important;
+    width: 34% !important;
+}
+
+#part-2 #nav-reboot .diamondheadrb img:nth-child(2){
+    left: 20% !important;
+}
+
+#part-2 #nav-reboot .humungousaurrb img:nth-child(2){
+    top: 16% !important;
+    left: 16% !important;
+    width: 70% !important;
+}
+
+#part-2 #nav-reboot .overflowrb img:nth-child(2){
+    top: 9% !important;
+    left: 26% !important;
+    width: 50% !important;
+}
+
+#part-2 #nav-reboot .gooprb img:nth-child(2){
+    top: 4% !important;
+    left: 26% !important;
+    width: 46% !important;
+}
+
+#part-2 #nav-reboot .stinkflyrb img:nth-child(2){
+    top: 13% !important;
+    left: 18% !important;
+    width: 64% !important;
+}
+
+#part-2 #nav-reboot .greymatterrb img:nth-child(2){
+    top: 12% !important;
+    left: 29% !important;
+    width: 40% !important;
+}
+
+#part-2 #nav-reboot .rathrb img:nth-child(2){
+    top: 12% !important;
+
+}
+
+#part-2 #nav-reboot .slapbackrb img:nth-child(2){
+    top: -6% !important;
+    left: 7% !important;
+    width: 100% !important;
+}
+
+#part-2 #nav-reboot .upgraderb img:nth-child(2){
+    top: 8% !important;
+    left: 26% !important;
+    width: 48% !important;
+}
+
+#part-2 #nav-reboot .waybigrb img:nth-child(2){
+    top: 5% !important;
+    left: 15% !important;
+    width: 70% !important;
+}
+
 /*************************************  @MEDIA  ****************************************/
 
 @media  (max-width: 1199px) {
