@@ -790,6 +790,48 @@
     width: 70% !important;
 }
 
+#part-2 #nav-reboot .fourarmsomnitunadorb img:nth-child(2){
+    top: 14% !important;
+    left: 13% !important;
+    width: 76% !important;
+}
+
+#part-2 #nav-reboot .cannonboltomnitunadorb img:nth-child(2){
+    top: 11% !important;
+    left: 15% !important;
+    width: 70% !important;
+}
+
+#part-2 #nav-reboot .heatblastomnitunadorb img:nth-child(2){
+    top: 3% !important;
+    left: 15% !important;
+    width: 70% !important;
+}
+
+#part-2 #nav-reboot .wildvineomnitunadorb img:nth-child(2){
+    top: 7% !important;
+    left: 16% !important;
+    width: 70% !important;
+}
+
+#part-2 #nav-reboot .diamondheadomnitunadorb img:nth-child(2){
+    left: 21% !important;
+    width: 54% !important;
+}
+
+#part-2 #nav-reboot .overflowomnitunadorb img:nth-child(2){
+    top: 12% !important;
+    left: 15% !important;
+    width: 70% !important;
+}
+
+#part-2 #nav-reboot .greymatteromnitunadorb img:nth-child(2){
+    top: 20% !important;
+    left: 15% !important;
+    width: 70% !important;
+}
+
+
 /*************************************  @MEDIA  ****************************************/
 
 @media  (max-width: 1199px) {
