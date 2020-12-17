@@ -1,0 +1,155 @@
+/*******************PART 2*******************/
+
+#part-1 > .container {
+    max-width: 1140px;
+    width: 67.5%;
+    background-color: #97C93D;
+    padding: 0;
+    border-radius: 0.625rem;
+    border-radius: 0.625rem;
+}
+
+#nav-content {
+    max-width: 93.5% !important;
+}
+
+
+
+/*******NAV TAB MENU*******/
+
+#nav-tab-menu {
+    max-width: 100% !important;
+    background-color: black;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+}
+
+#part-1 #nav-tab-menu #challenge-name {
+    text-align: center;
+    color: white;
+}
+
+#part-1 #nav-tab-menu #challenge-name h1 {
+    font: italic 3rem 'Roboto', sans-serif;
+}
+
+#part-1 #nav-tab-menu #challenge-name p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+#part-1 #nav-tab-menu #challenge-name + hr {
+    border-top: 1px solid #C4C4C4 !important;
+    width: 95.5% !important;
+}
+
+#part-1 #nav-tab {
+    padding: 1.5% 1rem !important;
+}
+
+#part-1 .nav-link {
+    padding: 0.5rem !important;
+    font: normal 1rem 'Roboto', sans-serif !important;
+    border-radius: 0.25rem !important;
+}
+
+#nav-tab a.active {
+    background-color: transparent !important;
+}
+
+#nav-tab a {
+    color: white;
+}
+
+#part-1 .nav-tabs {
+    border-bottom: none !important;
+}
+
+
+
+/***************ALIENS CARDS - TEMPLATE***************/
+
+.tab-pane .col-lg-12, #alien-card h4 {
+    color: black;
+    text-align: center;
+}
+
+#alien-card > img + img {
+    position: absolute;
+    top: 6%;
+    left: 19% !important;
+    width: 60% !important;
+    /*    display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+#part-1 #nav-tabContent div.col-lg-12 h1 {
+    font: normal 2.5rem 'Roboto', sans-serif;
+}
+
+#part-1 #nav-tabContent div.col-lg-12 p {
+    font: normal 1rem/1.5 'Roboto', sans-serif;
+}
+
+#part-1 #nav-tabContent div.col-lg-12 p a {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#part-1 #alien-card h4 {
+    margin-top: 0.5rem;
+    font: normal 1.25rem 'Roboto', sans-serif;
+}
+
+#part-1 #alien-card {
+    margin-bottom: 4% !important;
+}
+
+#part-1 #alien-card a:hover {
+    text-decoration: none;
+    
+}
+
+#part-1 #alien-card h4:hover {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#part-1 #alien-card img:hover {
+   cursor: pointer;
+   /*cursor: url('../img/Diamante-cursor-1.png'), auto;*/
+}
+
+#alien-card:hover {
+    transition: 1s all;
+    transform: scale(1.2);
+    z-index: 5 !important;
+}
+
+#part-1 #nav-tabContent hr {
+    border-top: 2px solid rgb(0 0 0 / 37%) !important;
+}
+
+
+
+/*************************************  @MEDIA  ****************************************/
+
+@media  (max-width: 1199px) {
+
+    #part-1 img {
+        width: 50%;
+        margin-top: 2% !important;
+    }
+
+    #part-1 p {
+        font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
+        text-align: center !important;
+        margin-bottom: 2% !important;
+    }
+
+    .arroba-media-modal .modal .modal-body .row div {
+        margin-bottom: 7% !important;
+    }
+    
+}
