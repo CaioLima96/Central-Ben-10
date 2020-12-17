@@ -64,23 +64,28 @@
     border-bottom: none !important;
 }
 
-
-
-/***************ALIENS CARDS - TEMPLATE***************/
-
-.tab-pane .col-lg-12, #alien-card h4 {
-    color: black;
-    text-align: center;
+#nav-setembro > div.col-lg-12 p {
+    text-align: left;
+    font: normal 1rem/1.5rem 'Roboto', sans-serif !important;
 }
 
-#alien-card > img + img {
-    position: absolute;
-    top: 6%;
-    left: 19% !important;
-    width: 60% !important;
-    /*    display: block;
-    margin-left: auto;
-    margin-right: auto;*/
+
+
+/***************DESAFIOS CARDS - TEMPLATE***************/
+
+#part-1 #desafio-card {
+    margin-bottom: 4% !important;
+}
+
+/*.tab-pane #desafios-cards #desafio-card-img {
+    width: 223px !important;
+    height: 330px !important;
+    background-color: red;
+}*/
+
+.tab-pane .col-lg-12, #desafio-card h4 {
+    color: black;
+    text-align: center;
 }
 
 #part-1 #nav-tabContent div.col-lg-12 h1 {
@@ -97,34 +102,23 @@
     font-style: italic;
 }
 
-#part-1 #alien-card h4 {
+#part-1 #desafio-card h4 {
     margin-top: 0.5rem;
     font: normal 1.25rem 'Roboto', sans-serif;
 }
 
-#part-1 #alien-card {
-    margin-bottom: 4% !important;
-}
-
-#part-1 #alien-card a:hover {
+#part-1 #desafio-card a:hover {
     text-decoration: none;
     
 }
 
-#part-1 #alien-card h4:hover {
+#part-1 #desafio-card h4:hover {
     font-weight: bold;
     font-style: italic;
 }
 
-#part-1 #alien-card img:hover {
+#part-1 #desafio-card img:hover {
    cursor: pointer;
-   /*cursor: url('../img/Diamante-cursor-1.png'), auto;*/
-}
-
-#alien-card:hover {
-    transition: 1s all;
-    transform: scale(1.2);
-    z-index: 5 !important;
 }
 
 #part-1 #nav-tabContent hr {
@@ -132,16 +126,43 @@
 }
 
 
+/***************ALIEN DRAW***************/
+
+#nav-content .firstplace img {
+    border: 5px solid gold;
+    border-radius: 2px;
+}
+
+#nav-content .secondplace img {
+    border: 5px solid silver;
+    border-radius: 2px;
+}
+
+#nav-content .thirdplace img {
+    border: 5px solid #cd7f32;
+    border-radius: 2px;
+}
+
 
 /*************************************  @MEDIA  ****************************************/
 
-@media  (max-width: 1199px) {
 
-    #part-1 img {
-        width: 50%;
-        margin-top: 2% !important;
+@media (min-width: 769px) {
+
+    #desafio-card #desafio-card-img:hover {
+        transition: 1s all;
+        transform: scale(1.2);
+        z-index: 5 !important;
     }
 
+}
+
+@media  (max-width: 1199px) {
+
+    #part-1 > .container {
+        width: 90% !important;
+    }
+    
     #part-1 p {
         font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
         text-align: center !important;
