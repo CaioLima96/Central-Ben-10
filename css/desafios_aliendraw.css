@@ -64,10 +64,31 @@
     border-bottom: none !important;
 }
 
-#nav-setembro > div.col-lg-12 p {
+.tab-pane > div.col-lg-12 {
     text-align: left;
     font: normal 1rem/1.5rem 'Roboto', sans-serif !important;
+    padding-left: 0 !important;
 }
+
+#challenge-name #accordion .card {
+    background-color: transparent !important;
+}
+
+#challenge-name #accordion .card-header button {
+    color: white;
+}
+
+#challenge-name #accordion .card-body {
+    text-align: left !important;
+    color: white;
+}
+
+#challenge-name #accordion #headingOne a {
+    color: white;
+    font-size: 1rem !important;
+    font-style: normal;
+}
+
 
 
 
@@ -90,10 +111,6 @@
 
 #part-1 #nav-tabContent div.col-lg-12 h1 {
     font: normal 2.5rem 'Roboto', sans-serif;
-}
-
-#part-1 #nav-tabContent div.col-lg-12 p {
-    font: normal 1rem/1.5 'Roboto', sans-serif;
 }
 
 #part-1 #nav-tabContent div.col-lg-12 p a {
@@ -128,17 +145,17 @@
 
 /***************ALIEN DRAW***************/
 
-#nav-content .firstplace img {
-    border: 5px solid gold;
+#nav-content .firstplace #desafio-card-img {
+    border: 5px solid yellow;
     border-radius: 2px;
 }
 
-#nav-content .secondplace img {
+#nav-content .secondplace #desafio-card-img {
     border: 5px solid silver;
     border-radius: 2px;
 }
 
-#nav-content .thirdplace img {
+#nav-content .thirdplace #desafio-card-img {
     border: 5px solid #cd7f32;
     border-radius: 2px;
 }
@@ -147,11 +164,11 @@
 /*************************************  @MEDIA  ****************************************/
 
 
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
 
     #desafio-card #desafio-card-img:hover {
         transition: 1s all;
-        transform: scale(1.2);
+        transform: scale(1.12);
         z-index: 5 !important;
     }
 
@@ -165,7 +182,6 @@
     
     #part-1 p {
         font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
-        text-align: center !important;
         margin-bottom: 2% !important;
     }
 
