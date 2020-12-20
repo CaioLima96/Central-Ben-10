@@ -1,4 +1,4 @@
-/*******************PART 2*******************/
+/*************************************  PART 1 ****************************************/
 
 #part-1 > .container {
     max-width: 1140px;
@@ -15,7 +15,7 @@
 
 
 
-/*******NAV TAB MENU*******/
+/******* NAV TAB MENU *******/
 
 #nav-tab-menu {
     max-width: 100% !important;
@@ -92,7 +92,7 @@
 
 
 
-/***************DESAFIOS CARDS - TEMPLATE***************/
+/*************** DESAFIOS CARDS - TEMPLATE ***************/
 
 #part-1 #desafio-card {
     margin-bottom: 4% !important;
@@ -142,49 +142,12 @@
     border-top: 2px solid rgb(0 0 0 / 37%) !important;
 }
 
-/*#desafio-card #desafio-card-img img + .hide {
-    display: none;
-}
 
-#desafio-card #desafio-card-img img:hover + .hide {
-    display: block;
-    color: red;
-    margin-top: -50px;
-    margin-left: 5px;
-}*/
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-}
-
-#desafio-card-img:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-color: white;
-font-size: 20px;
-position: absolute;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-text-align: center;
-}
-/***************ALIEN DRAW***************/
+/*************** ALIEN DRAW ***************/
 
 #nav-content .firstplace #desafio-card-img {
-    border: 5px solid yellow;
+    border: 5px solid #d6d64c;
     border-radius: 2px;
 }
 
@@ -199,16 +162,87 @@ text-align: center;
 }
 
 
-/*************************************  @MEDIA  ****************************************/
 
+/*************** AUTHOR INFO TEMPLATE ***************/
+
+.author-info {
+    position: absolute;
+    top: 76%;
+    bottom: 0;
+    left: 4.6%;
+    right: 0;
+    height: 24%;
+    width: 90.5%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-top-left-radius: 247% !important;
+    border-top-right-radius: 247% !important;
+}
+
+#desafio-card-img .author-info .text img{
+    width: 18px !important;
+}
+
+#desafio-card-img:hover .author-info, #desafio-card-img:active .author-info{
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#desafio-card-img .author-info .text a {
+    color: white;
+}
+
+#desafio-card-img .author-info .text a p {
+    margin-top: 2% !important;
+}
+
+#desafio-card-img .author-info .text a p:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.firstplace #desafio-card-img .author-info {
+    background-color: #d6d64c !important;
+}
+
+.secondplace #desafio-card-img .author-info {
+    background-color: silver !important;
+}
+
+.thirdplace #desafio-card-img .author-info {
+    background-color: #cd7f32 !important;
+}
+
+.firstplace #desafio-card-img .author-info .text .fa-trophy {
+    color: yellow;
+}
+
+.secondplace #desafio-card-img .author-info .text .fa-trophy {
+    color: #eaeaea;
+}
+
+.thirdplace #desafio-card-img .author-info .text .fa-trophy {
+    color: #9e5813;
+}
+
+
+/*************************************  @MEDIA  ****************************************/
 
 @media (min-width: 1000px) {
 
-    /*#desafio-card #desafio-card-img:hover {
-        transition: 1s all;
-        transform: scale(1.12);
-        z-index: 5 !important;
-    }*/
+    
 
 }
 
@@ -223,8 +257,19 @@ text-align: center;
         margin-bottom: 2% !important;
     }
 
-    .arroba-media-modal .modal .modal-body .row div {
-        margin-bottom: 7% !important;
+    #desafio-card-img .author-info {
+        left: 4.1% !important;
+        width: 91.9% !important;
     }
+
+    
+
+    #desafio-card-img .author-info .text a p {
+        font-size: 0.938rem !important;
+        margin-top: 8% !important;
+        margin-bottom: 23% !important;
+    }
+    
+    
     
 }
