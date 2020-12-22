@@ -141,23 +141,16 @@
    cursor: pointer;
 }
 
-#part-1 #nav-tabContent hr {
-    border-top: 2px solid rgb(0 0 0 / 37%) !important;
-}
-
-
-
-/*************** ALIEN DRAW ***************/
-
 
 
 /*************** AUTHOR INFO TEMPLATE ***************/
+
 
 .author-info {
     position: absolute;
     top: 76%;
     bottom: 0;
-    left: 4.6%;
+    left: 15px;
     right: 0;
     height: 24%;
     width: 90.5%;
@@ -201,29 +194,9 @@
     font-weight: bold;
 }
 
-.firstplace #desafio-card-img .author-info {
-    background-color: #d6d64c !important;
-}
 
-.secondplace #desafio-card-img .author-info {
-    background-color: silver !important;
-}
 
-.thirdplace #desafio-card-img .author-info {
-    background-color: #cd7f32 !important;
-}
 
-.firstplace #desafio-card-img .author-info .text .fa-trophy {
-    color: yellow;
-}
-
-.secondplace #desafio-card-img .author-info .text .fa-trophy {
-    color: #eaeaea;
-}
-
-.thirdplace #desafio-card-img .author-info .text .fa-trophy {
-    color: #9e5813;
-}
 
 
 /*************************************  @MEDIA  ****************************************/
@@ -231,6 +204,14 @@
 @media (min-width: 1000px) {
 
     
+
+}
+
+@media (max-width: 500px) {
+
+    #desafio-card-img .author-info .text a p {
+        font-size: 0.938rem !important;
+    }
 
 }
 
@@ -250,10 +231,7 @@
         width: 91.9% !important;
     }
 
-    
-
     #desafio-card-img .author-info .text a p {
-        font-size: 0.938rem !important;
         margin-top: 8% !important;
         margin-bottom: 23% !important;
     }

@@ -249,6 +249,14 @@
 
 }
 
+@media (max-width: 500px) {
+
+    #desafio-card-img .author-info .text a p {
+        font-size: 0.938rem !important;
+    }
+
+}
+
 @media  (max-width: 1199px) {
 
     #part-1 > .container {
@@ -264,11 +272,8 @@
         left: 4.1% !important;
         width: 91.9% !important;
     }
-
     
-
     #desafio-card-img .author-info .text a p {
-        font-size: 0.938rem !important;
         margin-top: 8% !important;
         margin-bottom: 23% !important;
     }
