@@ -24,20 +24,20 @@
     border-top-right-radius: 0.625rem;
 }
 
-#part-1 #nav-tab-menu #challenge-name {
+#part-1 #nav-tab-menu #challenge-intro {
     text-align: center;
     color: white;
 }
 
-#part-1 #nav-tab-menu #challenge-name h1 {
+#part-1 #nav-tab-menu #challenge-intro h1 {
     font: italic 3rem 'Roboto', sans-serif;
 }
 
-#part-1 #nav-tab-menu #challenge-name p {
+#part-1 #nav-tab-menu #challenge-intro p {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-#part-1 #nav-tab-menu #challenge-name + hr {
+#part-1 #nav-tab-menu #challenge-intro + hr {
     border-top: 1px solid #C4C4C4 !important;
     width: 95.5% !important;
 }
@@ -70,29 +70,32 @@
     padding-left: 0 !important;
 }
 
-#challenge-name #accordion .card {
+#challenge-intro #accordion .card {
     background-color: transparent !important;
 }
 
-#challenge-name #accordion .card-header button {
+#challenge-intro #accordion .card-header button {
     color: white;
 }
 
-#challenge-name #accordion .card-body {
+#challenge-intro #accordion .card-body {
     text-align: left !important;
     color: white;
 }
 
-#challenge-name #accordion #headingOne a {
+#challenge-intro #accordion #headingOne a {
     color: white;
     font-size: 1rem !important;
     font-style: normal;
 }
 
-#challenge-name #accordion .card .card-header h5 {
+#challenge-intro #accordion .card .card-header h5 {
     cursor:pointer;
 }
 
+#challenge-intro a {
+    color: #97C93D;
+}
 
 
 /*************** DESAFIOS CARDS - TEMPLATE ***************/
