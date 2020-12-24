@@ -1,0 +1,144 @@
+/*************************************  PART 1 ****************************************/
+
+#part-1 > .container {
+    max-width: 1140px;
+    width: 67.5%;
+    background-color: #97C93D;
+    padding: 0;
+    border-radius: 0.625rem;
+    border-radius: 0.625rem;
+}
+
+#parceiros {
+    max-width: 93.5% !important;
+}
+
+
+
+/******* NAV TAB MENU *******/
+
+#parceiros-menu {
+    max-width: 100% !important;
+    background-color: black;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+}
+
+#part-1 #parceiros-menu #parceiros-intro {
+    text-align: center;
+    color: white;
+}
+
+#part-1 #parceiros-menu #parceiros-intro h1 {
+    font: italic 3rem 'Roboto', sans-serif;
+}
+
+#part-1 #parceiros-menu #parceiros-intro p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+#part-1 #parceiros-menu #parceiros-intro + hr {
+    border-top: 1px solid #C4C4C4 !important;
+    width: 95.5% !important;
+}
+
+#parceiros-intro #accordion .card {
+    background-color: transparent !important;
+}
+
+#parceiros-intro #accordion .card-header button {
+    color: white;
+}
+
+#parceiros-intro #accordion .card-body {
+    text-align: left !important;
+    color: white;
+}
+
+#parceiros-intro #accordion #headingOne a {
+    color: white;
+    font-size: 1rem !important;
+    font-style: normal;
+}
+
+#parceiros-intro #accordion .card .card-header h5 {
+    cursor:pointer;
+}
+
+#parceiros-intro a {
+    color: #97C93D;
+}
+
+
+
+/******* PARCEIROS TEMPLATE *******/
+
+#parceiro-card-img img {
+    border-radius: 50%;
+}
+
+#parceiro-desktop .parceiro-right {
+    text-align: right;
+}
+
+#parceiro-desktop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+
+
+/*************************************  @MEDIA  ****************************************/
+
+@media  (max-width: 991px) {
+
+    #parceiro-row {
+        text-align: center !important;
+    }
+
+    #parceiro-desktop {
+        display: none;
+    }
+
+    #parceiro-row #parceiro-card-img {
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (min-width: 991px) {
+
+    #parceiro-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    #part-1 > .container {
+        width: 90% !important;
+    }
+    
+    #part-1 p {
+        font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
+        margin-bottom: 2% !important;
+    }
+
+    #parceiro-row {
+        margin-bottom: 5% !important;
+    }
+
+    #parceiro-card-img .read-icon .text a p {
+        margin-top: 8% !important;
+        margin-bottom: 23% !important;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+
+    #parceiros-content #parceiro-row:nth-child(2) {
+        margin-bottom: 3rem !important;
+    }
+}
