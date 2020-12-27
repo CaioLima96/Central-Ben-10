@@ -1,0 +1,50 @@
+/*************************************  PART 1 ****************************************/
+
+#part-1 > .container {
+    max-width: 1140px;
+    width: 67.5%;
+    background-color: #97C93D;
+    padding: 0;
+    border-radius: 0.625rem;
+    border-radius: 0.625rem;
+}
+
+
+
+
+/******* NAV TAB MENU *******/
+
+#contato .row {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#contato .row div:nth-last-of-type(2) {
+    width: 70%;
+    text-align: center;
+}
+
+#contato .row div:nth-child(2) {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/*************************************  @MEDIA  ****************************************/
+
+@media (max-width: 1199px) {
+
+    #part-1 > .container {
+        width: 90% !important;
+    }
+    
+    #part-1 p {
+        font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
+        margin-bottom: 2% !important;
+    }
+    
+}

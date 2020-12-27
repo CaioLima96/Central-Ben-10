@@ -29,7 +29,11 @@ header ul a:hover {
 /*********************************FOOTER******************************************/
 
 footer {
-    background-color: #f1dfdf;
+    /*background-color: #f1dfdf;*/
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 3rem;
 }
 
 footer .container {
