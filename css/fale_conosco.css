@@ -11,13 +11,13 @@
 
 
 
-
-/******* NAV TAB MENU *******/
+/******* CONTATO CONTENT *******/
 
 #contato .row {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #contato .row div:nth-last-of-type(2) {
@@ -26,12 +26,41 @@
 }
 
 #contato .row div:nth-child(2) {
-    width: 50%;
+    width: 55%;
     display: flex;
     justify-content: space-around;
 }
 
+#contato .row div:nth-child(2) p {
+    margin: 0 !important;
+}
 
+#contato #email-list, #social-list {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 2rem;
+}
+
+#contato #email-list img { 
+    border-radius: 2px;
+    position: absolute;
+    left: -10px;
+    top: -11px;
+}
+
+#contato #social-list img {
+    border-radius: 2px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+}
+
+#contato #social-list a {
+    color: black !important;
+}
 
 
 /*************************************  @MEDIA  ****************************************/
@@ -43,8 +72,30 @@
     }
     
     #part-1 p {
-        font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
+        /*font-size: clamp(1.2rem, 1.6rem, 1.6875rem);*/
         margin-bottom: 2% !important;
+    }
+    
+
+
+    /******* CONTATO CONTENT *******/
+
+    #contato .row div:nth-child(2) {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    #contato .row div:nth-last-of-type(2) {
+        width: 100% !important;
+    }
+
+    #contato .row div:nth-child(2) {
+        width: auto;
+    }
+
+
+    footer {
+        position: initial !important;
     }
     
 }
