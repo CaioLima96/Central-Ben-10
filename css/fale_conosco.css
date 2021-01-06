@@ -18,6 +18,8 @@
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.8rem;
 }
 
 #contato .row div:nth-last-of-type(2) {
@@ -65,6 +67,16 @@
 
 /*************************************  @MEDIA  ****************************************/
 
+@media (min-width: 1000px) {
+
+    #social-list p:hover {
+        font-style: italic !important;
+        transition: 1s all;
+        transform: scale(1.2);
+    }
+
+}
+
 @media (max-width: 1199px) {
 
     #part-1 > .container {
@@ -92,7 +104,6 @@
     #contato .row div:nth-child(2) {
         width: auto;
     }
-
 
     footer {
         position: initial !important;

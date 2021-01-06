@@ -191,9 +191,17 @@
 
 /*************************************  @MEDIA  ****************************************/
 
-@media (min-width: 1000px) {
 
-    
+@media (min-width: 1024px) {
+
+    #author-mobile {
+        display: none;
+    }
+
+    #fanart-card-img .author-info .text div img:hover {
+        transition: 1s all;
+        transform: scale(1.2);
+    }
 
 }
 
@@ -205,15 +213,29 @@
 
 }
 
+@media  (max-width: 1023px) {
+
+    #author-desktop {
+        display: none;
+    }
+
+    #author-mobile span {
+        display: flex;
+        justify-content: center;
+        align-items: initial;
+    }
+
+    #author-mobile span p {
+        font: normal 1.25rem 'Roboto', sans-serif !important;
+        color: black;
+    }
+    
+}
+
 @media  (max-width: 1199px) {
 
     #part-1 > .container {
         width: 90% !important;
-    }
-    
-    #part-1 p {
-        font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
-        margin-bottom: 2% !important;
     }
 
     #fanart-card-img .author-info {
@@ -225,7 +247,5 @@
         margin-top: 8% !important;
         margin-bottom: 23% !important;
     }
-    
-    
     
 }

@@ -24,6 +24,9 @@ header ul a:hover {
     color: #969632 !important;
 }
 
+.dropdown-menu {
+    text-align: center !important;
+}
 
 
 /*********************************FOOTER******************************************/
