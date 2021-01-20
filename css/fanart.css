@@ -195,7 +195,7 @@
 @media (min-width: 1024px) {
 
     #author-mobile {
-        display: none;
+        display: none !important;
     }
 
     #fanart-card-img .author-info .text div img:hover {
@@ -216,7 +216,7 @@
 @media  (max-width: 1023px) {
 
     #author-desktop {
-        display: none;
+        display: none !important;
     }
 
     #author-mobile span {

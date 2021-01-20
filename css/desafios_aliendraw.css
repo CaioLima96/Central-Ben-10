@@ -244,11 +244,19 @@
 }
 
 
+
 /*************************************  @MEDIA  ****************************************/
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
 
-    
+    #author-mobile {
+        display: none;
+    }
+
+    #desafio-card-img .author-info .text div img:hover {
+        transition: 1s all;
+        transform: scale(1.2);
+    }
 
 }
 
@@ -258,6 +266,36 @@
         font-size: 0.938rem !important;
     }
 
+}
+
+@media  (max-width: 1023px) {
+
+    #author-desktop {
+        display: none !important;
+    }
+
+    #author-mobile span {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #author-mobile span p {
+        font: normal 1.25rem 'Roboto', sans-serif !important;
+        color: black;
+    }
+
+    .firstplace #author-mobile span .fa-trophy {
+        color: #D6D64C;
+    }
+
+    .secondplace #author-mobile span .fa-trophy {
+        color: #eaeaea;
+    }
+
+    .thirdplace #author-mobile span .fa-trophy {
+        color: #9e5813;
+    }
 }
 
 @media  (max-width: 1199px) {
@@ -279,8 +317,6 @@
     #desafio-card-img .author-info .text a p {
         margin-top: 8% !important;
         margin-bottom: 23% !important;
-    }
-    
-    
+    }   
     
 }
