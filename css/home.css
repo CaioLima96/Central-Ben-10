@@ -74,6 +74,29 @@
     border-bottom: none !important;
 }
 
+#indice-list {
+    /* list-style-type: none; */
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: max-content;
+    padding: 15px 13px 15px;
+    margin-bottom: 3.125rem;
+    box-shadow: 4px 4px 0px -1px rgb(0 0 0 / 75%);
+}
+
+#indice-list h4 + li, #indice-list h4 + li + li{
+    margin-bottom: 5px;
+}
+
+#indice-list li {
+    font: normal 0.875rem 'Roboto', sans-serif;
+}
+
+#indice-list li a {
+    color: black;
+}
+
 
 
 /***************ALIENS CARDS - TEMPLATE***************/
