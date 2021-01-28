@@ -937,6 +937,10 @@
 
 @media  (max-width: 1199px) {
 
+    #part-1 > .container, #part-2 > .container {
+        width: 90% !important;
+    }
+
     #part-1 img {
         width: 50%;
         margin-top: 2% !important;
