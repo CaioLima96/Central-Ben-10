@@ -177,6 +177,7 @@
     width: 72% !important;
     left: 14% !important;
 }
+
 #part-2 .snareoh img:nth-child(2) {
     top: 4% !important;
     width: 64% !important;
@@ -963,6 +964,7 @@
 /*************************************  @MEDIA  ****************************************/
 
 @media (min-width: 1024px) {
+    
     #alien-card:hover {
         transition: 1s all;
         transform: scale(1.2);
@@ -991,7 +993,7 @@
         margin-bottom: 7% !important;
     }
 
-    .web-alien-modal #UltimateAlienRipJawsModal .modal-body .row:nth-child(3) div:nth-child(2) img {
+    .arroba-media-modal #UltimateAlienRipJawsModal .modal-body .row:nth-child(3) div:nth-child(2) img {
         margin-top: 0px !important;
     }
     

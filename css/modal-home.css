@@ -88,8 +88,6 @@
 
 
 
-
-
 /*************************CLASSIC BEN ALIENS***************************/
 
 #Classic-Ben-Aliens-Modal #ClassicBenEyeGuyModal .modal-body .row .col-xl-12 img{
@@ -106,12 +104,6 @@
 
 
 
-
-
-/*************************OMNIVERSE ALIENS***************************/
-
-
-
 /*************************************  @MEDIA  ****************************************/
 
 @media  (max-width: 575px) {
@@ -122,6 +114,20 @@
     
 }
 
+@media (min-width: 1024px) {
+
+    .web-alien-modal #ClassicBenCannonBoltModal .modal-body .row img {
+        margin-bottom: 20px !important;
+    }
+}
+
+@media  (max-width: 1199px) {
+
+    .arroba-media-modal #UltimateAlienRipJawsModal .modal-body .row:nth-child(3) div:nth-child(2) img {
+        margin-top: 0px !important;
+    }
+    
+}
 
 
 
