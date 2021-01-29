@@ -305,7 +305,6 @@
     }
     
     #part-1 p {
-        font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
         margin-bottom: 2% !important;
     }
 

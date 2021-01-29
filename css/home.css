@@ -154,12 +154,6 @@
    /*cursor: url('../img/Diamante-cursor-1.png'), auto;*/
 }
 
-#alien-card:hover {
-    transition: 1s all;
-    transform: scale(1.2);
-    z-index: 5 !important;
-}
-
 #part-2 #nav-tabContent hr {
     border-top: 2px solid rgb(0 0 0 / 37%) !important;
 }
@@ -404,6 +398,12 @@
     width: 35% !important;
 }
 
+#part-2 #nav-supremacia-alienigena .ripjawsua img:nth-child(2){
+    top: 8% !important;
+    left: 30% !important;
+    width: 40% !important;
+}
+
 #part-2 #nav-supremacia-alienigena .fourarmsua img:nth-child(2){
     top: 5% !important;
     left: 25% !important;
@@ -420,6 +420,10 @@
     top: 18% !important;
     left: 12% !important;
     width: 77% !important;
+}
+
+.web-alien-modal #UltimateAlienRipJawsModal .modal-body .row:nth-child(3) div:nth-child(2) img {
+    margin-top: 50px !important;
 }
 
 
@@ -958,6 +962,14 @@
 
 /*************************************  @MEDIA  ****************************************/
 
+@media (min-width: 1024px) {
+    #alien-card:hover {
+        transition: 1s all;
+        transform: scale(1.2);
+        z-index: 5 !important;
+    }    
+}
+
 @media  (max-width: 1199px) {
 
     #part-1 > .container, #part-2 > .container {
@@ -977,6 +989,10 @@
 
     .arroba-media-modal .modal .modal-body .row div {
         margin-bottom: 7% !important;
+    }
+
+    .web-alien-modal #UltimateAlienRipJawsModal .modal-body .row:nth-child(3) div:nth-child(2) img {
+        margin-top: 0px !important;
     }
     
 }

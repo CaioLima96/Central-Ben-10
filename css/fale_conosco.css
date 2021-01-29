@@ -65,6 +65,24 @@
 }
 
 
+
+/******* FOOTER *******/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
+
+footer {
+    position: absolute;
+    /*position: fixed;*/
+}
+
+
+
 /*************************************  @MEDIA  ****************************************/
 
 @media (min-width: 1000px) {
@@ -84,7 +102,6 @@
     }
     
     #part-1 p {
-        /*font-size: clamp(1.2rem, 1.6rem, 1.6875rem);*/
         margin-bottom: 2% !important;
     }
     
@@ -95,6 +112,8 @@
     #contato .row div:nth-child(2) {
         flex-direction: column !important;
         text-align: center !important;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #contato .row div:nth-last-of-type(2) {
@@ -106,7 +125,7 @@
     }
 
     footer {
-        position: initial !important;
+        /*position: initial !important;*/
     }
     
 }
