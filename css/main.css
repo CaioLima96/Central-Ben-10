@@ -1,11 +1,21 @@
 /********************************* HEADER ****************************************/
 
 header .container-fluid {
-    background-color: #627612;
+    /*background-color: #627612;*/
+    background-image: url("/img/cover-background.png");
+}
+
+header .container-fluid .row img {
+    height: 190px;
+    width: 2100px;
+    object-fit: none;
+    /*object-position: 80% 50%;*/
+    object-position: 139% 50%;
 }
 
 header .container-fluid > .row {
     overflow: hidden;
+    
 }
 
 header nav {
@@ -13,19 +23,28 @@ header nav {
 }
 
 header .navbar {
-    background-color: #2A4D2C !important;
+    background-color: #16712a !important;
+    /*background-color: #1b5628d1 !important;*/
+    /*background-color: #739c29 !important;*/
 }
 
 header ul a {
-    color: black !important;
+    color: white !important;
 }
 
 header ul a:hover {
-    color: #969632 !important;
+    color: black !important;
+    font-weight: 600 !important;
 }
 
 .dropdown-menu {
     text-align: center !important;
+    background-color:#6fb37e !important;
+    border: none !important;
+}
+
+nav li.dropdown {
+    text-align: center;
 }
 
 
