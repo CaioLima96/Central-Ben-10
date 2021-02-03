@@ -1,8 +1,8 @@
 /********************************* HEADER ****************************************/
 
 header .container-fluid {
-    /*background-color: #627612;*/
     background-image: url("/img/cover-background.png");
+    background-color: black;
 }
 
 header .container-fluid .row img {
@@ -61,28 +61,55 @@ footer {
 
 footer .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-footer p {
-    margin: auto;
-    color: black;
-    font: 400 'Roboto', sans-serif;
+@font-face {
+    font-family: "Ben10-font";
+    src: url(BADABB_.TTF);
 }
 
-footer a{
+footer h3 {
+    font-family: "Ben10-font" !important;
+    font-size: 36px !important;
+    /*font-family: "Satisfy", sans-serif;*/
+}
+
+footer #copyright {
+    text-align: center;
+    font-size: 14px !important;
+}
+
+footer #copyright a {
+    color: black !important;
+}
+
+footer #credits {
+    display: flex;
+    align-items: center;
+}
+
+footer #credits p {
+    font-size: 13px;
+    margin: auto;
+    color: black;
+    font: normal 13px 'Roboto', sans-serif;
+}
+
+footer #credits a{
     color: black;
     font-style: italic;
 }
 
-footer a:hover {
+footer #credits a:hover {
     color: #3d543d;
     font-weight: bold;
     
 }
 
-footer .container div:nth-child(2):hover {
+footer .container #credits div:nth-child(2):hover {
     transition: 1.2s all;
     transform: scale(1.2);
 }
