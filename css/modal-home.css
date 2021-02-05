@@ -107,7 +107,73 @@
     bottom: 0 !important;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 599px) {
+
+    #info-about-alien .card-body {
+        flex-direction: column !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl span {
+        flex-direction: column !important;
+    }
+
+    .web-alien-modal .modal .modal-header .card-body #alienBio {
+        margin-right: 0 !important;
+        margin-bottom: 8% !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl {
+        flex-direction: column !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl span ul:nth-child(2) {
+        margin-top: -4% !important;
+    }
+
+    .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+        width: 70% !important;
+        right: -14% !important;
+        margin-top: 2% !important;
+        margin-bottom: 7% !important;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+
+    #info-about-alien .card-body {
+        flex-direction: column !important;
+    }
+
+    .web-alien-modal .modal .modal-header .card-body #alienBio {
+        margin-right: 0 !important;
+        margin-bottom: 5% !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl span {
+        flex-direction: row !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl {
+        flex-direction: column !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl span ul:nth-child(2) {
+        margin-top: 0% !important;
+    }
+
+    .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+        width: 100% !important;
+        left: 13% !important;
+        margin-bottom: 8% !important;
+    }
+
+    .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+        max-width: 350px !important;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
 
     #info-about-alien #alienPowers .pwr-abl {
         flex-direction: column !important;
