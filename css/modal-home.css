@@ -1,4 +1,4 @@
-/************************TEMPLATE MODAL*************************/
+/************************* TEMPLATE MODAL ***************************/
 
 .alienModal .modal-dialog {
     max-width: 1140px;
@@ -21,7 +21,6 @@
 .alienModal .modal-body  {
     text-align: center !important;
 }
-
 
 .web-alien-modal .modal-body .col-xl-12 hr {
     width: 80% !important;
@@ -59,6 +58,19 @@
 }
 
 
+
+/************************* INFO ABOUT THE ALIEN ***************************/
+
+#info-about-alien {
+    display: flex;
+    flex-direction: column;
+}
+
+#info-about-alien .card-body {
+    display: flex;
+    flex-direction: row;
+}
+
 .web-alien-modal .modal .modal-header .card-body{
     padding: 1.5rem;
 }
@@ -74,6 +86,15 @@
     margin-right: 1.4rem !important;
 }
 
+#info-about-alien #alienPowers .pwr-abl {
+    display: flex;
+    flex-direction: row;
+}
+
+#info-about-alien #alienPowers .pwr-abl span {
+    display: flex;
+}
+
 .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
     width: 41% !important;
     max-width: 280px !important;
@@ -86,9 +107,46 @@
     bottom: 0 !important;
 }
 
+@media (max-width: 992px) {
 
+    #info-about-alien #alienPowers .pwr-abl {
+        flex-direction: column !important;
+    }
 
-/*************************CLASSIC BEN ALIENS***************************/
+    #info-about-alien #alienPowers .pwr-abl span {
+        flex-direction: row !important;
+    }
+
+    .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+        width: 63% !important;
+        left: 18.6% !important;
+        margin-bottom: 5% !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl span ul:nth-child(2) {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 993px) {
+
+    #info-about-alien #alienPowers .pwr-abl span {
+        flex-direction: column !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl span ul:nth-child(2) {
+        margin-top: -6% !important;
+    }
+
+    .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+        width: 45% !important;
+        right: 4% !important;
+    }
+    
+
+}
+
+/************************* CLASSIC BEN ALIENS ***************************/
 
 #Classic-Ben-Aliens-Modal #ClassicBenEyeGuyModal .modal-body .row .col-xl-12 img{
     width: 23% !important;
@@ -101,7 +159,6 @@
 #Classic-Ben-Aliens-Modal #ClassicBenFourArmsModal #nav-content-modal #nav-end-game-fourArms .row:nth-child(2) .col-xl-5:nth-child(2) img {
     width: 362px !important;
 }
-
 
 
 /*************************************  @MEDIA  ****************************************/
@@ -167,7 +224,4 @@
         margin-top: 30px !important;
         margin-bottom: 30px !important;
     }
-    
 }
-
-
