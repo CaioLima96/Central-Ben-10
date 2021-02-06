@@ -290,4 +290,15 @@
         margin-top: 30px !important;
         margin-bottom: 30px !important;
     }
+
+    .web-alien-modal #UltimateAlienWaterHazardModal .modal-body .row:nth-child(2) {
+        margin-top: 30px !important;
+    }
+
+    .web-alien-modal #UltimateAlienArmodrilloModal .modal-body .row:nth-child(2) {
+        margin-top: 30px !important;
+    }
+
+    
+    
 }
