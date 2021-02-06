@@ -146,6 +146,13 @@ footer .container #credits div:nth-child(2):hover {
     background-color: #555;
 }*/
 
+@media (max-width: 375px) {
+
+    footer #credits {
+        flex-direction: column !important;
+    }
+}
+
 @media (max-width: 850px) {
     
     #myBtn {
