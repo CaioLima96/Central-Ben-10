@@ -66,27 +66,24 @@
 
 
 
-/******* FOOTER *******/
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin: 0 0 100px;
-}
-
-footer {
-    position: absolute;
-    /*position: fixed;*/
-}
-
-
-
 /*************************************  @MEDIA  ****************************************/
 
 @media (min-width: 1000px) {
 
+    /*html {
+        position: relative;
+        min-height: 100%;
+    }
+    
+    body {
+        margin: 0 0 100px;
+    }*/
+    
+    footer {
+        /*position: absolute;*/
+        position: fixed;
+    }
+    
     #social-list p:hover {
         font-style: italic !important;
         transition: 1s all;
@@ -122,10 +119,6 @@ footer {
 
     #contato .row div:nth-child(2) {
         width: auto;
-    }
-
-    footer {
-        /*position: initial !important;*/
     }
     
 }

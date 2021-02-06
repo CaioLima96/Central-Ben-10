@@ -51,6 +51,7 @@ nav li.dropdown {
 
 /********************************* FOOTER ******************************************/
 
+
 footer {
     /*background-color: #f1dfdf;*/
     bottom: 0px;
@@ -113,3 +114,4 @@ footer .container #credits div:nth-child(2):hover {
     transition: 1.2s all;
     transform: scale(1.2);
 }
+
