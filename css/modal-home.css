@@ -299,6 +299,9 @@
         margin-top: 30px !important;
     }
 
+    .web-alien-modal #UltimateAlienNrgModal .modal-body .row:nth-child(2) {
+        margin-top: 30px !important;
+    }
     
     
 }
