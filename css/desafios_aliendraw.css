@@ -152,17 +152,21 @@
 
 /*************** ALIEN DRAW ***************/
 
-#nav-content .firstplace #desafio-card-img {
+#nav-content #desafio-card {
+    text-align: center;
+}
+
+#nav-content .firstplace #desafio-card-img img {
     border: 5px solid #d6d64c;
     border-radius: 2px;
 }
 
-#nav-content .secondplace #desafio-card-img {
+#nav-content .secondplace #desafio-card-img img {
     border: 5px solid silver;
     border-radius: 2px;
 }
 
-#nav-content .thirdplace #desafio-card-img {
+#nav-content .thirdplace #desafio-card-img img {
     border: 5px solid #cd7f32;
     border-radius: 2px;
 }
@@ -187,7 +191,7 @@
 }
 
 #desafio-card-img .author-info .text img{
-    width: 18px !important;
+    width: 28px !important;
 }
 
 #desafio-card-img:hover .author-info, #desafio-card-img:active .author-info{
