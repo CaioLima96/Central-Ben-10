@@ -142,10 +142,6 @@ footer .container #credits div:nth-child(2):hover {
     color: black;
 }
 
-/*#myBtn:hover {
-    background-color: #555;
-}*/
-
 @media (max-width: 375px) {
 
     footer #credits {

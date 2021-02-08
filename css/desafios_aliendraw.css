@@ -171,7 +171,12 @@
     border-radius: 2px;
 }
 
+@media (max-width: 991px) {
 
+    #nav-tabContent .tab-pane .row {
+        margin-left: 0 !important;
+    }
+}
 
 /*************** AUTHOR INFO TEMPLATE ***************/
 
