@@ -100,11 +100,34 @@
     max-width: 280px !important;
     height: fit-content;
     right: 3% !important;
+    background-color: #565656;
+    border: none;
+    padding: 0;
+    box-shadow: 4px 4px 6px grey !important;
+    border-radius: 2px !important;
+}
+
+.carousel-inner {
+    padding: 0 0 27px 0 !important;
 }
 
 .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel .carousel-caption {
     padding: 0 !important;
-    bottom: 0 !important;
+    bottom: -39px !important;
+    left: 0 !important;
+    right: 0 !important;
+    white-space: nowrap !important;
+}
+
+.web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel .carousel-caption p {
+    text-shadow: 2px 2px 2px black;
+}
+
+@media (max-width: 400px) {
+
+    .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel .carousel-caption p {
+        font-size: 14px !important;
+    }
 }
 
 @media (max-width: 599px) {
@@ -139,7 +162,7 @@
 
 }
 
-@media (max-width: 768px) and (min-width: 600px) {
+@media (max-width: 767px) and (min-width: 600px) {
 
     #info-about-alien .card-body {
         flex-direction: column !important;
@@ -166,9 +189,37 @@
         width: 100% !important;
         left: 13% !important;
         margin-bottom: 8% !important;
+        max-width: 350px !important;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 768px) {
+
+    #info-about-alien .card-body {
+        flex-direction: column !important;
+    }
+
+    .web-alien-modal .modal .modal-header .card-body #alienBio {
+        margin-right: 0 !important;
+        margin-bottom: 5% !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl span {
+        flex-direction: row !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl {
+        flex-direction: column !important;
+    }
+
+    #info-about-alien #alienPowers .pwr-abl span ul:nth-child(2) {
+        margin-top: 0% !important;
     }
 
     .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+        width: 100% !important;
+        left: 20% !important;
+        margin-bottom: 8% !important;
         max-width: 350px !important;
     }
 }
@@ -212,6 +263,14 @@
 
 }
 
+/*************** INFO ABOUT THE ALIEN - CLASSIC***************/
+
+.web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel .carousel-item:nth-child(12) .carousel-caption {
+    white-space: normal !important;
+}
+
+
+
 /************************* CLASSIC BEN ALIENS ***************************/
 
 #Classic-Ben-Aliens-Modal #ClassicBenEyeGuyModal .modal-body .row .col-xl-12 img{
@@ -233,16 +292,14 @@
 
     .arroba-media-modal .modal-dialog {
         margin-left: 5% !important;
-    }
-    
+    } 
 }
 
 @media (max-width: 1199px) {
 
     .arroba-media-modal #UltimateAlienRipJawsModal .modal-body .row:nth-child(3) div:nth-child(2) img {
         margin-top: 0px !important;
-    }
-    
+    }  
 }
 
 @media (min-width: 1200px) {
