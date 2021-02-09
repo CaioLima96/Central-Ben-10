@@ -28,11 +28,15 @@ header .navbar {
     /*background-color: #739c29 !important;*/
 }
 
-header ul a {
+header a {
     color: white !important;
 }
 
-header ul a:hover {
+header a.navbar-brand {
+    font-family: 'Roboto', sans-serif;;
+}
+
+header a:hover {
     color: black !important;
     font-weight: 600 !important;
 }
@@ -47,7 +51,23 @@ nav li.dropdown {
     text-align: center;
 }
 
+@media (max-width: 991px) {
 
+    .navbar-brand {
+        display: visible !important;
+    }    
+
+    .navbar-expand-lg {
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .navbar-brand {
+        display: none !important;
+    }
+}
 
 /********************************* FOOTER ******************************************/
 
