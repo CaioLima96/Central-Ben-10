@@ -126,8 +126,55 @@
 @media (max-width: 400px) {
 
     .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel .carousel-caption p {
-        font-size: 14px !important;
+        font-size: 13px !important;
     }
+
+    .web-alien-modal .modal .modal-header .card-body .PowerAbilityModalCarousel {
+        width: 85% !important;
+        right: -8% !important;
+    }
+
+    .modal #fourArmsClassicCarousel .carousel-inner div:nth-child(2) p {
+        white-space: pre-wrap;
+        line-height: 1;
+    }
+
+    .modal #ripJawsClassicCarousel .carousel-inner div:nth-last-child(13) p {
+        font-size: 13px !important;
+        white-space: pre-wrap;
+        line-height: 1;
+    }
+
+    .modal #ripJawsClassicCarousel .carousel-inner div:nth-last-child(12) p {
+        font-size: 13px !important;
+        white-space: pre-wrap;
+        line-height: 1;
+    }
+    
+    .modal #ripJawsClassicCarousel .carousel-inner div:nth-child(4) p {
+        font-size: 13px !important;
+        white-space: pre-wrap;
+        line-height: 1;
+    }
+
+    .modal #ripJawsClassicCarousel .carousel-inner div:nth-child(5) p {
+        font-size: 13px !important;
+        white-space: pre-wrap;
+        line-height: 1;
+    }
+
+    .modal #ripJawsClassicCarousel .carousel-inner div:nth-child(12) p {
+        font-size: 13px !important;
+        white-space: pre-wrap;
+        line-height: 1;
+    }
+
+    .modal #ripJawsClassicCarousel .carousel-inner div:nth-child(13) p {
+        font-size: 10px !important;
+        white-space: pre-wrap;
+        line-height: 1;
+    }
+    
 }
 
 @media (max-width: 599px) {
