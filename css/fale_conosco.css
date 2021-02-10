@@ -54,10 +54,11 @@
 }
 
 #contato #social-list img {
+    width: 24px;
     border-radius: 2px;
     position: absolute;
     left: -10px;
-    top: -14px;
+    top: -10px;
 }
 
 #contato #social-list a {
