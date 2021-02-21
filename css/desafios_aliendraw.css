@@ -294,6 +294,10 @@
         color: black;
     }
 
+    #author-mobile span div img {
+        width: 23px !important;
+    }
+
     .firstplace #author-mobile span .fa-trophy {
         color: #D6D64C;
     }

@@ -229,6 +229,10 @@
         font: normal 1.25rem 'Roboto', sans-serif !important;
         color: black;
     }
+
+    #author-mobile span div img {
+        width: 23px !important;
+    }
     
 }
 
