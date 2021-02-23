@@ -1,6 +1,6 @@
 /*************************************  PART 1 ****************************************/
 
-#part-1 > .container {
+#part-1>.container {
     max-width: 1140px;
     width: 67.5%;
     background-color: #97C93D;
@@ -12,7 +12,6 @@
 #nav-content {
     max-width: 93.5% !important;
 }
-
 
 
 /******* NAV TAB MENU *******/
@@ -37,7 +36,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-#part-1 #nav-tab-menu #challenge-intro + hr {
+
+#part-1 #nav-tab-menu #challenge-intro+hr {
     border-top: 1px solid #C4C4C4 !important;
     width: 95.5% !important;
 }
@@ -64,7 +64,7 @@
     border-bottom: none !important;
 }
 
-.tab-pane > div.col-lg-12 {
+.tab-pane>div.col-lg-12 {
     text-align: left;
     font: normal 1rem/1.5rem 'Roboto', sans-serif !important;
     padding-left: 0 !important;
@@ -90,7 +90,7 @@
 }
 
 #challenge-intro #accordion .card .card-header h5 {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #challenge-intro a {
@@ -104,13 +104,15 @@
     margin-bottom: 4% !important;
 }
 
+
 /*.tab-pane #desafios-cards #desafio-card-img {
     width: 223px !important;
     height: 330px !important;
     background-color: red;
 }*/
 
-.tab-pane .col-lg-12, #desafio-card h4 {
+.tab-pane .col-lg-12,
+#desafio-card h4 {
     color: black;
     text-align: center;
 }
@@ -132,7 +134,6 @@
 
 #part-1 #desafio-card a:hover {
     text-decoration: none;
-    
 }
 
 #part-1 #desafio-card h4:hover {
@@ -141,13 +142,12 @@
 }
 
 #part-1 #desafio-card img:hover {
-   cursor: pointer;
+    cursor: pointer;
 }
 
 #part-1 #nav-tabContent hr {
     border-top: 2px solid rgb(0 0 0 / 37%) !important;
 }
-
 
 
 /*************** ALIEN DRAW ***************/
@@ -156,27 +156,27 @@
     text-align: center;
 }
 
-#nav-content .firstplace #desafio-card-img img {
+#nav-content .firstplace #desafio-card-img>img {
     border: 5px solid #d6d64c;
     border-radius: 2px;
 }
 
-#nav-content .secondplace #desafio-card-img img {
+#nav-content .secondplace #desafio-card-img>img {
     border: 5px solid silver;
     border-radius: 2px;
 }
 
-#nav-content .thirdplace #desafio-card-img img {
+#nav-content .thirdplace #desafio-card-img>img {
     border: 5px solid #cd7f32;
     border-radius: 2px;
 }
 
 @media (max-width: 991px) {
-
     #nav-tabContent .tab-pane .row {
         margin-left: 0 !important;
     }
 }
+
 
 /*************** AUTHOR INFO TEMPLATE ***************/
 
@@ -195,11 +195,13 @@
     border-top-right-radius: 247% !important;
 }
 
-#desafio-card-img .author-info .text img{
-    width: 28px !important;
+#nav-content #author-desktop img {
+    width: 20px !important;
+    border-radius: 2px;
 }
 
-#desafio-card-img:hover .author-info, #desafio-card-img:active .author-info{
+#desafio-card-img:hover .author-info,
+#desafio-card-img:active .author-info {
     opacity: 1;
 }
 
@@ -253,82 +255,68 @@
 }
 
 
-
 /*************************************  @MEDIA  ****************************************/
 
 @media (min-width: 1024px) {
-
     #author-mobile {
         display: none;
     }
-
     #desafio-card-img .author-info .text div img:hover {
         transition: 1s all;
         transform: scale(1.2);
     }
-
 }
 
 @media (max-width: 500px) {
-
     #desafio-card-img .author-info .text a p {
         font-size: 0.938rem !important;
     }
-
 }
 
-@media  (max-width: 1023px) {
-
+@media (max-width: 1023px) {
     #author-desktop {
         display: none !important;
     }
-
     #author-mobile span {
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: normal;
     }
-
     #author-mobile span p {
         font: normal 1.25rem 'Roboto', sans-serif !important;
         color: black;
     }
-
     #author-mobile span div img {
-        width: 23px !important;
+        width: 20px !important;
+        border-radius: 2px;
     }
-
+    #author-mobile span .fa-trophy {
+        transform: translateY(25%) !important;
+    }
     .firstplace #author-mobile span .fa-trophy {
         color: #D6D64C;
     }
-
     .secondplace #author-mobile span .fa-trophy {
         color: #eaeaea;
     }
-
     .thirdplace #author-mobile span .fa-trophy {
         color: #9e5813;
     }
 }
 
-@media  (max-width: 1199px) {
-
-    #part-1 > .container {
+@media (max-width: 1199px) {
+    #part-1>.container {
         width: 90% !important;
     }
-    
     #part-1 p {
         margin-bottom: 2% !important;
     }
-
     #desafio-card-img .author-info {
         left: 4.1% !important;
         width: 91.9% !important;
     }
-    
     #desafio-card-img .author-info .text a p {
         margin-top: 8% !important;
         margin-bottom: 23% !important;
-    }   
-    
+    }
 }
