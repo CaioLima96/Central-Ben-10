@@ -1,6 +1,6 @@
 /*************************************  PART 1 ****************************************/
 
-#part-1 > .container {
+#part-1>.container {
     max-width: 1140px;
     width: 67.5%;
     background-color: #97C93D;
@@ -12,7 +12,6 @@
 #nav-content {
     max-width: 93.5% !important;
 }
-
 
 
 /******* NAV TAB MENU *******/
@@ -37,7 +36,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-#part-1 #nav-tab-menu #fanfic-intro + hr {
+
+#part-1 #nav-tab-menu #fanfic-intro+hr {
     border-top: 1px solid #C4C4C4 !important;
     width: 95.5% !important;
 }
@@ -64,7 +64,7 @@
     border-bottom: none !important;
 }
 
-.tab-pane > div.col-lg-12 {
+.tab-pane>div.col-lg-12 {
     text-align: left;
     font: normal 1rem/1.5rem 'Roboto', sans-serif !important;
     padding-left: 0 !important;
@@ -90,7 +90,7 @@
 }
 
 #fanfic-intro #accordion .card .card-header h5 {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #fanfic-intro a {
@@ -98,14 +98,15 @@
 }
 
 
-
 /*************** FANFICS CARDS - TEMPLATE ***************/
+
 
 /*#fanfic-card { Quando colocar uma segunda row, retirar essa configuração do @media
     margin-bottom: 5% !important;
 }*/
 
-.tab-pane .col-lg-12, #fanfic-card h4 {
+.tab-pane .col-lg-12,
+#fanfic-card h4 {
     color: black;
     text-align: center;
 }
@@ -148,16 +149,15 @@
     align-items: baseline;
 }
 
-#author-social-media p{
+#author-social-media p {
     margin-bottom: 0 !important;
     color: black;
     font: normal 1rem 'Roboto', sans-serif !important;
 }
 
-#author-social-media img{
+#author-social-media img {
     width: 18px !important;
 }
-
 
 
 /*************** READ ICON TEMPLATE ***************/
@@ -191,7 +191,7 @@
     color: white;
 }
 
-#fanfic-card-img .read-icon .text a p{
+#fanfic-card-img .read-icon .text a p {
     margin-bottom: 0 !important;
     margin-left: -50% !important;
 }
@@ -202,47 +202,48 @@
 }
 
 
-
-
-
 /*************************************  @MEDIA  ****************************************/
 
 @media (min-width: 1000px) {
-    
     #author-social-media img:hover {
         transition: 1s all;
         transform: scale(1.3);
     }
-
     #author-social-media p:hover {
         font-style: italic !important;
         font-weight: 800 !important;
     }
+}
 
+@media (min-height: 1025px) {
+    footer {
+        position: fixed;
+    }
 }
 
 @media (max-width: 500px) {
-
     #fanfic-card-img .read-icon .text a p {
         font-size: 0.938rem !important;
     }
-
 }
 
-@media  (max-width: 1199px) {
+@media (max-width: 991px) {
+    #nav-content div.row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
 
-    #part-1 > .container {
+@media (max-width: 1199px) {
+    #part-1>.container {
         width: 90% !important;
     }
-    
     #part-1 p {
         margin-bottom: 2% !important;
     }
-
     #fanfic-card {
         margin-bottom: 5% !important;
     }
-
     #fanfic-card-img .read-icon .text a p {
         margin-top: 8% !important;
         margin-bottom: 23% !important;

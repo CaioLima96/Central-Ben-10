@@ -1,6 +1,6 @@
 /*************************************  PART 1 ****************************************/
 
-#part-1 > .container {
+#part-1>.container {
     max-width: 1140px;
     width: 67.5%;
     background-color: #97C93D;
@@ -12,7 +12,6 @@
 #nav-content {
     max-width: 93.5% !important;
 }
-
 
 
 /******* NAV TAB MENU *******/
@@ -37,7 +36,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-#part-1 #nav-tab-menu #fanart-intro + hr {
+
+#part-1 #nav-tab-menu #fanart-intro+hr {
     border-top: 1px solid #C4C4C4 !important;
     width: 95.5% !important;
 }
@@ -64,7 +64,7 @@
     border-bottom: none !important;
 }
 
-.tab-pane > div.col-lg-12 {
+.tab-pane>div.col-lg-12 {
     text-align: left;
     font: normal 1rem/1.5rem 'Roboto', sans-serif !important;
     padding-left: 0 !important;
@@ -90,13 +90,12 @@
 }
 
 #fanart-intro #accordion .card .card-header h5 {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #fanart-intro a {
     color: #97C93D;
 }
-
 
 
 /*************** FANART CARDS - TEMPLATE ***************/
@@ -105,7 +104,8 @@
     margin-bottom: 4% !important;
 }
 
-.tab-pane .col-lg-12, #fanart-card h4 {
+.tab-pane .col-lg-12,
+#fanart-card h4 {
     color: black;
     text-align: center;
 }
@@ -127,14 +127,12 @@
 
 #part-1 #fanart-card a:hover {
     text-decoration: none;
-    
 }
 
 #part-1 #fanart-card h4:hover {
     font-weight: bold;
     font-style: italic;
 }
-
 
 
 /*************** AUTHOR INFO TEMPLATE ***************/
@@ -154,11 +152,13 @@
     border-top-right-radius: 247% !important;
 }
 
-#fanart-card-img .author-info .text img{
-    width: 18px !important;
+#fanart-card-img .author-info .text img {
+    width: 20px !important;
+    border-radius: 2px;
 }
 
-#fanart-card-img:hover .author-info, #fanart-card-img:active .author-info{
+#fanart-card-img:hover .author-info,
+#fanart-card-img:active .author-info {
     opacity: 1;
 }
 
@@ -188,68 +188,67 @@
 }
 
 
-
 /*************************************  @MEDIA  ****************************************/
 
+@media (min-height: 1025px) {
+    footer {
+        position: fixed;
+    }
+}
 
 @media (min-width: 1024px) {
-
     #author-mobile {
         display: none !important;
     }
-
     #fanart-card-img .author-info .text div img:hover {
         transition: 1s all;
         transform: scale(1.2);
     }
-
 }
 
 @media (max-width: 500px) {
-
     #fanart-card-img .author-info .text a p {
         font-size: 0.938rem !important;
     }
-
 }
 
-@media  (max-width: 1023px) {
+@media (max-width: 991px) {
+    #nav-content div.row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
 
+@media (max-width: 1023px) {
     #author-desktop {
         display: none !important;
     }
-
     #author-mobile span {
         display: flex;
         justify-content: center;
         align-items: initial;
     }
-
     #author-mobile span p {
         font: normal 1.25rem 'Roboto', sans-serif !important;
         color: black;
+        margin-bottom: 2% !important;
     }
-
     #author-mobile span div img {
-        width: 23px !important;
+        width: 20px !important;
+        border-radius: 2px;
     }
-    
 }
 
-@media  (max-width: 1199px) {
-
-    #part-1 > .container {
+@media (max-width: 1199px) {
+    #part-1>.container {
         width: 90% !important;
     }
-
     #fanart-card-img .author-info {
         left: 4.1% !important;
         width: 91.9% !important;
     }
-
     #fanart-card-img .author-info .text a p {
         margin-top: 8% !important;
         margin-bottom: 23% !important;
     }
-    
 }
